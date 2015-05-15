@@ -1,0 +1,9 @@
+<apex:component controller="salesvisual.ContactMap" >
+    <apex:attribute name="Contact" type="Contact"  assignTo="{!rootContact}" description="Current Contact"/>
+  <!-- Begin Default Content REMOVE THIS -->
+  <script type="text/javascript">
+    var json = {!data};
+  </script>
+  <c:MapContainer fullMapPath="{!URLFOR($Page.salesvisual__ContactMap, null, [id=Contact.id])}"></c:MapContainer>
+  <!-- End Default Content REMOVE THIS -->
+</apex:component>

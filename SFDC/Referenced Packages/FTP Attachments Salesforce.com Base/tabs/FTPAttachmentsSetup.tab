@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This tab contains link to the setup wizard of FTP Attachments. This wizard helps the user to setup Enzigma account with all required FTP server settings.</description>
+    <frameHeight>600</frameHeight>
+    <hasSidebar>true</hasSidebar>
+    <label>FTP Attachments Setup</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom80: Motorcycle</motif>
+    <url>https://www.enzigma.com/sforce/setup/Default.aspx?AppGroup=1&amp;OrgID={!$Organization.Id}&amp;SFURL={!API.Partner_Server_URL_90}</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

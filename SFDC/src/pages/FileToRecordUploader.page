@@ -1,0 +1,18 @@
+<apex:page controller="File2ProductUploaderPOC">
+    <apex:form >
+        <apex:pagemessages />
+        <apex:pageBlock >
+            <apex:pageBlockSection columns="4"> 
+                  <apex:inputFile style="width:100%"  value="{!csvFileBody}"  filename="{!csvAsString}" 
+                  title="C:\Users\Shashivind.Mishra\Desktop\Firestar\Data upload\Price upload\ApexCode_from Abdul\Product2"/> 
+                  <apex:commandButton value="Upload" action="{!importCSVFile}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:pageBlock >
+            <apex:pageblocktable value="{!productList}" var="product">
+              <apex:column value="{!product.Name}" />
+              <apex:column value="{!product.Style_No__c}" />
+                </apex:pageblocktable>
+                </apex:pageBlock>
+   </apex:form>
+</apex:page>

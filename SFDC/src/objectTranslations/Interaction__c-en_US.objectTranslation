@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Interaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Interactions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Interactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Action Point Date --></label>
+        <name>Action_Point_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action point --></label>
+        <name>Action_point__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Associated Store --></label>
+        <name>Associated_Store__c</name>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Budget given (in lacs) --></label>
+        <name>Budget_given_in_lacs__c</name>
+        <picklistValues>
+            <masterLabel>10 to 15 lacs</masterLabel>
+            <translation><!-- 10 to 15 lacs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15 to 25 lacs</masterLabel>
+            <translation><!-- 15 to 25 lacs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5 to 5 lacs</masterLabel>
+            <translation><!-- 2.5 to 5 lacs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35 to 50 lacs</masterLabel>
+            <translation><!-- 35 to 50 lacs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 to 10 lacs</masterLabel>
+            <translation><!-- 5 to 10 lacs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 to 75 lacs</masterLabel>
+            <translation><!-- 50 to 75 lacs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75 lacs to 1 crore</masterLabel>
+            <translation><!-- 75 lacs to 1 crore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Above 1 crore</masterLabel>
+            <translation><!-- Above 1 crore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Below 2.5 lacs</masterLabel>
+            <translation><!-- Below 2.5 lacs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- Interactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Venue City --></label>
+        <name>City__c</name>
+        <picklistValues>
+            <masterLabel>Ahmedabad</masterLabel>
+            <translation><!-- Ahmedabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amritsar</masterLabel>
+            <translation><!-- Amritsar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangalore</masterLabel>
+            <translation><!-- Bangalore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chandigarh</masterLabel>
+            <translation><!-- Chandigarh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chennai</masterLabel>
+            <translation><!-- Chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dehradun</masterLabel>
+            <translation><!-- Dehradun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faridabad</masterLabel>
+            <translation><!-- Faridabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghaziabad</masterLabel>
+            <translation><!-- Ghaziabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurgaon</masterLabel>
+            <translation><!-- Gurgaon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyderabad</masterLabel>
+            <translation><!-- Hyderabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaipur</masterLabel>
+            <translation><!-- Jaipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jodhpur</masterLabel>
+            <translation><!-- Jodhpur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kolkatta</masterLabel>
+            <translation><!-- Kolkatta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucknow</masterLabel>
+            <translation><!-- Lucknow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ludhiana</masterLabel>
+            <translation><!-- Ludhiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mumbai</masterLabel>
+            <translation><!-- Mumbai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mysore</masterLabel>
+            <translation><!-- Mysore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noida</masterLabel>
+            <translation><!-- Noida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patiala</masterLabel>
+            <translation><!-- Patiala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pune</masterLabel>
+            <translation><!-- Pune --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Srinagar</masterLabel>
+            <translation><!-- Srinagar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Udaipur</masterLabel>
+            <translation><!-- Udaipur --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Profile --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Interactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Creation Date --></label>
+        <name>Creation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Name --></label>
+        <name>Hyperlink_Interaction_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Time Spent on Level 1 --></label>
+        <name>If_Time_Spent_on_Level_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Time Spent on Level 2 --></label>
+        <name>If_Time_Spent_on_Level_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction ExternalID --></label>
+        <name>Interaction_ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Name1 --></label>
+        <name>Interaction_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jewellery Worn, if any --></label>
+        <name>Jewellery_Worn_if_any__c</name>
+    </fields>
+    <fields>
+        <label><!-- Venue Location Detail --></label>
+        <name>Location_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medium of Interaction --></label>
+        <name>Medium_of_Interaction__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing communication</masterLabel>
+            <translation><!-- Marketing communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting at external event</masterLabel>
+            <translation><!-- Meeting at external event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting instore event</masterLabel>
+            <translation><!-- Meeting instore event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Store appointment</masterLabel>
+            <translation><!-- Out of Store appointment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone call</masterLabel>
+            <translation><!-- Phone call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store interaction</masterLabel>
+            <translation><!-- Store interaction --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Outcome --></label>
+        <name>Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Bought</masterLabel>
+            <translation><!-- Bought --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invite Accepted</masterLabel>
+            <translation><!-- Invite Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invite Rejected</masterLabel>
+            <translation><!-- Invite Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sale lost</masterLabel>
+            <translation><!-- Sale lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shortlisted</masterLabel>
+            <translation><!-- Shortlisted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will come back again</masterLabel>
+            <translation><!-- Will come back again --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Purchase Interest --></label>
+        <name>Purpose_of_Purchase_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Anniversary</masterLabel>
+            <translation><!-- Anniversary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birthday</masterLabel>
+            <translation><!-- Birthday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival - Akshay Tritiya</masterLabel>
+            <translation><!-- Festival - Akshay Tritiya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival - Christmas</masterLabel>
+            <translation><!-- Festival - Christmas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival - Diwali</masterLabel>
+            <translation><!-- Festival - Diwali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival - Id</masterLabel>
+            <translation><!-- Festival - Id --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival - Karva chauth</masterLabel>
+            <translation><!-- Festival - Karva chauth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival - Others</masterLabel>
+            <translation><!-- Festival - Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival - Rakshabandhan</masterLabel>
+            <translation><!-- Festival - Rakshabandhan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festival-Holi</masterLabel>
+            <translation><!-- Festival-Holi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For self</masterLabel>
+            <translation><!-- For self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Gifting</masterLabel>
+            <translation><!-- General Gifting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment</masterLabel>
+            <translation><!-- Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Promotion</masterLabel>
+            <translation><!-- Professional Promotion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding (Engagement)</masterLabel>
+            <translation><!-- Wedding (Engagement) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding (Functions unknown)</masterLabel>
+            <translation><!-- Wedding (Functions unknown) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding (Gifting)</masterLabel>
+            <translation><!-- Wedding (Gifting) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding (Pheras)</masterLabel>
+            <translation><!-- Wedding (Pheras) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding (Reception)</masterLabel>
+            <translation><!-- Wedding (Reception) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wedding (Sangeet / Cocktail)</masterLabel>
+            <translation><!-- Wedding (Sangeet / Cocktail) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales person purpose of interaction --></label>
+        <name>Purpose_of_interaction__c</name>
+        <picklistValues>
+            <masterLabel>Birthday / Anniversary</masterLabel>
+            <translation><!-- Birthday / Anniversary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collaboration</masterLabel>
+            <translation><!-- Collaboration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collection Launch</masterLabel>
+            <translation><!-- Collection Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event invite</masterLabel>
+            <translation><!-- Event invite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Follow up</masterLabel>
+            <translation><!-- Follow up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift</masterLabel>
+            <translation><!-- Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NMJ Sales Line</masterLabel>
+            <translation><!-- NMJ Sales Line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference Call</masterLabel>
+            <translation><!-- Reference Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Visit</masterLabel>
+            <translation><!-- Store Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success in business</masterLabel>
+            <translation><!-- Success in business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upcoming Wedding</masterLabel>
+            <translation><!-- Upcoming Wedding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Query</masterLabel>
+            <translation><!-- Website Query --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Buying/Rejection --></label>
+        <name>Reason_for_Rejection_Acceptance__c</name>
+        <picklistValues>
+            <masterLabel>Craftmanship</masterLabel>
+            <translation><!-- Craftmanship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diamond Quality</masterLabel>
+            <translation><!-- Diamond Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusivity</masterLabel>
+            <translation><!-- Exclusivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Comfortable</masterLabel>
+            <translation><!-- Not Comfortable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailability</masterLabel>
+            <translation><!-- Unavailability --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Staff1 --></label>
+        <name>Staff_1__c</name>
+        <relationshipLabel><!-- Interactions (Staff1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Staff2 --></label>
+        <name>Staff_2__c</name>
+        <relationshipLabel><!-- Interactions (Staff2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Spent On Level 1 in Minutes --></label>
+        <name>Time_Spent_On_Level_1_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Spent On Level 2 in Minutes --></label>
+        <name>Time_Spent_On_Level_2_in_Minutes__c</name>
+    </fields>
+    <layouts>
+        <layout>Interaction Layout</layout>
+        <sections>
+            <label><!-- Closed Opportunities --></label>
+            <section>Closed Opportunities</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Open Opportunites --></label>
+            <section>Open Opportunites</section>
+        </sections>
+        <sections>
+            <label><!-- Products Bought --></label>
+            <section>Products Bought</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Staff1 and Staff2  should not be same --></errorMessage>
+        <name>Staff1_and_Staff2_Check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Product --></label>
+        <name>Add_Product</name>
+    </webLinks>
+</CustomObjectTranslation>

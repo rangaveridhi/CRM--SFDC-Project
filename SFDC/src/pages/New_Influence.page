@@ -1,0 +1,141 @@
+<apex:page standardController="Relation__c" extensions="ProfileExtn">
+
+<style type="text/css">
+
+.popup
+{
+background-color: white;
+border-width: 2px;
+border-style: solid;
+z-index: 9999;
+left: 50%;
+padding:10px;
+position: absolute;
+width: 700px;
+margin-left: -250px;
+top:40px;
+}
+
+.popupBg
+{
+background-color:black;
+opacity: 0.20;
+filter: alpha(opacity = 70);
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 9998;
+}
+
+.requiredInput {
+position: relative;
+height: 100%;
+}
+
+.requiredBlock {
+background-color: #C00;
+position: absolute;
+left: -4px;
+width: 3px;
+top: 1px;
+bottom: 1px;
+}
+
+</style>
+
+
+
+<apex:form id="form1">
+    <apex:messages style="font-weight:bold;float:left;font-color:red" />
+    
+    <script language="JavaScript" type="text/javascript">
+     function RefreshParent() {
+   
+     self.close();
+   
+</script> 
+
+ <!--   <script>
+     function setHiddenvalue()
+      {
+      alert(objSelec);
+         objHi.value =  objSelec.value;
+      alert("rel value"+ objHi);
+      }
+
+var objSelect = document.getElementById('{!$Component.relVal}') ;
+var objHid =  document.getElementById('{!$Component.SelectedRelative}') ;
+</script>-->
+
+            <apex:pageBlock title="New Accompaniment">
+                   <apex:pageBlockSection collapsible="false"> 
+                  
+                  
+                      <apex:panelGroup layout="left">
+                       <apex:panelGrid columns="6" >
+                         <apex:outputLabel style="font-weight:bold;float:left" value="Accompaniment" ></apex:outputLabel>  
+                         <apex:selectList id="relVal" style="font-weight:bold;float:right" multiselect="false" value="{!SelectedRelative}" size="1" title="Relationship">
+                         <apex:selectOptions value="{!relativesList}"  />
+                         </apex:selectList>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                       <apex:commandButton value="New Relation" action="{!showPopup}" rerender="popup"/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                           <apex:commandButton value="New Profile"  action="{!URLFOR($Action.Contact.NewContact)}" />
+
+                            <!--</apex:outputLink>-->
+                          </apex:panelGrid>
+                       </apex:panelGroup>
+            
+                      <apex:panelGrid columns="3" >
+                           <apex:outputLabel style="font-weight:bold;float:left" value="Interaction: "/>
+                          <b>  <apex:outputText style="font-weight:bold;float:right" value="{!$CurrentPage.parameters.interactionId}" /> </b>
+                       </apex:panelGrid>
+                   
+              <apex:panelGrid columns="2">
+               
+             <apex:outputLabel style="font-weight:bold;float:left" id="roleVal" value="Accompaniment Role" ></apex:outputLabel>
+            <apex:outputPanel styleClass="requiredInput" layout="block">
+            <apex:outputPanel styleClass="requiredBlock" layout="block"/>
+             <apex:selectList style="font-weight:bold;float:right" value="{!SelectedRole}" size="1" title="Role Of Accompaniment">
+              <apex:selectOptions value="{!roles}"  />
+             </apex:selectList> 
+             </apex:outputPanel> 
+            
+             </apex:panelGrid>
+               <apex:panelGrid columns="3" >
+                           <apex:outputLabel style="font-weight:bold;float:left" value="Conversation: "/>
+                          <apex:inputTextarea style="font-weight:bold;float:right" value="{!conversation}" />
+                       </apex:panelGrid>
+             
+                 </apex:pageBlockSection>    
+                   
+             <apex:commandButton action="{!Save}" value="Save" id="save"/>&nbsp;&nbsp;&nbsp;
+             <apex:commandButton action="{!Cancel}" value="Cancel" id="cancel"/>&nbsp;&nbsp;&nbsp;
+                      
+                
+                 <apex:outputPanel id="popup" >
+                <apex:outputPanel styleClass="popupBg" layout="block" rendered="{!displayPopUp}"/>
+<apex:outputPanel styleClass="popup" layout="block" rendered="{!displayPopUp}">
+
+ <apex:pageBlock title="New Relation" >
+  <apex:messages style="font-weight:bold;"  />
+            <apex:pageBlockSection title="New Relation" collapsible="false">
+           
+                <apex:inputField required="false" value="{!relation.Related_Contact__c}"/>
+                 <apex:inputField required="false" value="{!relation.Parent_Contact__c}"/>
+                 <apex:inputField value="{!relation.Relation_Type__c}"/>
+                
+            </apex:pageBlockSection>
+             <apex:commandButton value="Save" action="{!saveRelative}" />&nbsp;&nbsp;&nbsp;&nbsp;
+              <apex:commandButton value="Hide"  action="{!closePopup}" rerender="popup" /> 
+          
+        </apex:pageBlock>
+
+
+</apex:outputPanel>
+</apex:outputPanel>
+            </apex:pageBlock>
+           </apex:form>
+</apex:page>

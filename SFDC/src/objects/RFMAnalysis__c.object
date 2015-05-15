@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Object to hold data for RFM analysis</description>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>ContactId__c</fullName>
+        <description>ContactId field to ensure only one record per Contact is present. This avoids unnecessary trigger checks.</description>
+        <externalId>true</externalId>
+        <label>ContactId</label>
+        <length>20</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <description>Contact for RFM analysis</description>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>RFMAnalysis</relationshipLabel>
+        <relationshipName>RFMAnalysis</relationshipName>
+        <required>true</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Frequency_Score__c</fullName>
+        <label>Frequency Score</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Monetary_Score__c</fullName>
+        <label>Monetary Score</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>RFM_Score__c</fullName>
+        <label>RFM Score</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Recency_Score__c</fullName>
+        <label>Recency Score</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <label>RFMAnalysis</label>
+    <nameField>
+        <displayFormat>RFM-{00000000}</displayFormat>
+        <label>rfmId</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>RFMAnalysis</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

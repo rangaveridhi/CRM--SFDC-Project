@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Category_Code__c</fullName>
+        <description>Code for Category</description>
+        <label>Category Code</label>
+        <length>25</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <label>Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Bangles &amp; Cuffs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bracelets</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brooches</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Earrings</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Necklace &amp; Choker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pendants</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rings</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Collection__c</fullName>
+        <description>Collection for  the product</description>
+        <label>Collection</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Concept__c</fullName>
+        <label>Concept</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Designer_Name__c</fullName>
+        <label>Designer Name</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Diamond_Clarity__c</fullName>
+        <label>Diamond Clarity</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Diamond_Color__c</fullName>
+        <label>Diamond Color</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Diamond_Weight__c</fullName>
+        <label>Diamond Weight</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Finding_ID__c</fullName>
+        <label>Finding / ID</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Image_Extension__c</fullName>
+        <label>Image Extension</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Matching_Style_Ref_1__c</fullName>
+        <label>Matching Style Ref 1</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Matching_Style_Ref_2__c</fullName>
+        <label>Matching Style Ref 2</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Matching_Style_Ref_3__c</fullName>
+        <label>Matching Style Ref 3</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Material_Code__c</fullName>
+        <label>Material Code</label>
+        <length>55</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Material__c</fullName>
+        <label>Material</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Metal_Color__c</fullName>
+        <label>Metal Color</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Metal_KT__c</fullName>
+        <label>Metal KT</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Metal_Weight__c</fullName>
+        <label>Metal Weight</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <label>Order</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Pord__c</fullName>
+        <label>Pord</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <label>Price</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <label>Priority</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ProductExtId__c</fullName>
+        <description>Product external ID</description>
+        <externalId>true</externalId>
+        <label>ProductExtId</label>
+        <length>55</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>ProductPrice__c</fullName>
+        <label>ProductPrice</label>
+        <precision>18</precision>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Product_Hierarchy__c</fullName>
+        <label>Product Hierarchy</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image_Link__c</fullName>
+        <formula>IMAGE(( Product_Image__c  ), &quot; Product Photo &quot;,140, 140)</formula>
+        <label>Product Image Link</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Product_Image__c</fullName>
+        <label>Product Image</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <label>Product Type</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Store_Location__c</fullName>
+        <label>Store Location</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Style_No__c</fullName>
+        <description>External ID for Products</description>
+        <externalId>true</externalId>
+        <label>Style No</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Category_Name__c</fullName>
+        <label>Sub Category  Name</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Vendor__c</fullName>
+        <label>Vendor</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <webLinks>
+        <fullName>Add_Product</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Product</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/Add_Product?InteractionId={!Interaction__c.Id}&amp;contactId={!Interaction__c.ContactId__c}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>IpadSyncData</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IpadSyncData</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action point Date --></label>
+        <name>Action_point_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action point --></label>
+        <name>Action_point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Availability --></label>
+        <name>Availability__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDateFormula --></label>
+        <name>CreatedDateFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Name --></label>
+        <name>Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date/Time --></label>
+        <name>End_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Time Spent on Level 1 --></label>
+        <name>If_Time_Spent_on_Level_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Time Spent on Level 2 --></label>
+        <name>If_Time_Spent_on_Level_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Name --></label>
+        <name>Interaction_Name1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Name --></label>
+        <name>Interaction_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction Reason for Acceptance or Rej --></label>
+        <name>Interaction_Reason_for_Acceptance_or_Rej__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales User&apos;s EmailId --></label>
+        <name>Ipad_Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medium of Interaction --></label>
+        <name>Medium_of_Interaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Reason for acceptance/rejection --></label>
+        <name>Opp_Reason_for_acceptance_rejection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage --></label>
+        <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outcome --></label>
+        <name>Outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Status --></label>
+        <name>Product_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Style No --></label>
+        <name>Product_Style_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- IpadSyncData --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales User&apos;s Name --></label>
+        <name>Sales_User_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ipad User Id --></label>
+        <name>SessionID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Start Date/Time of Interaction --></help>
+        <label><!-- Start Date/Time --></label>
+        <name>Start_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Spent On Level 1 in Minutes --></label>
+        <name>Time_Spent_On_Level_1_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Spent On Level 2 in Minutes --></label>
+        <name>Time_Spent_On_Level_2_in_Minutes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Soft Delete --></help>
+        <label><!-- isDeleted --></label>
+        <name>isDeleted__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

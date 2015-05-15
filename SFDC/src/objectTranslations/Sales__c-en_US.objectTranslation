@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Sales</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales</value>
+    </caseValues>
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- City of Sale --></label>
+        <name>City_of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Sale --></label>
+        <name>Date_of_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Family (Account) --></label>
+        <name>Family__c</name>
+        <relationshipLabel><!-- Sales --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sold To --></label>
+        <name>Sold_To__c</name>
+        <relationshipLabel><!-- Sales --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Sale Amount --></label>
+        <name>Total_Sale_Amount__c</name>
+    </fields>
+    <layouts>
+        <layout>Sales Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Choose the correct Family (Account) --></errorMessage>
+        <name>Matching_Contact_and_Family</name>
+    </validationRules>
+</CustomObjectTranslation>

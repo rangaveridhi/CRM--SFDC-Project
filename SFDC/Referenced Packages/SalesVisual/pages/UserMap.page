@@ -1,0 +1,5 @@
+<apex:page tabStyle="My_Map__tab" sidebar="false" standardController="User" >
+    <c:IncludeStyles ></c:IncludeStyles>
+    <c:UserMap User="{!user}" ></c:UserMap>
+    <c:IncludeScripts ></c:IncludeScripts>
+</apex:page>

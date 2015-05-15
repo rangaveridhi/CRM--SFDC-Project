@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Other Task</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Other Tasks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration of Visit --></label>
+        <name>Duration_of_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date and Time --></label>
+        <name>End_Date_and_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback on pieces/collections/brand --></label>
+        <name>Feedback_on_pieces_collections_brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other points on lounge visit --></label>
+        <name>Other_points_on_lounge_visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pieces in which interest was shown --></label>
+        <name>Pieces_Collections_in_which_interest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date and Time --></label>
+        <name>Start_Date_and_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Time Taken --></label>
+        <name>Total_Time_Taken__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Call</masterLabel>
+            <translation><!-- Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales team members attending to client --></label>
+        <name>c_Sales_team_members_who_attended_to_cl__c</name>
+    </fields>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Custom object to capture people as customer&apos;s accompaniments.</description>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Parent_Contact__c</fullName>
+        <description>The parent contact to which this relation is linked to.</description>
+        <inlineHelpText>The parent contact to which this relation is linked to.</inlineHelpText>
+        <label>Parent Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Relations</relationshipLabel>
+        <relationshipName>P_Relations</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Related_Contact__c</fullName>
+        <description>The contact associated to this relationship.</description>
+        <inlineHelpText>The contact associated to this relationship.</inlineHelpText>
+        <label>Related Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Relations(Self)</relationshipLabel>
+        <relationshipName>Relations</relationshipName>
+        <required>true</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Relation_Type__c</fullName>
+        <description>The type of Relationship</description>
+        <label>Relation Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Aunt</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colleague</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Daughter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Father</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Friend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mother</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nephew</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Niece</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Son</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Uncle</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wife</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Relationship_ExternalID__c</fullName>
+        <externalId>true</externalId>
+        <label>Relationship_ExternalID</label>
+        <length>55</length>
+        <type>Text</type>
+    </fields>
+    <label>Relation</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>REL-{00000000}</displayFormat>
+        <label>Relation Code</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Relations</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Related_Contact__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Relation_Type__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Related_Contact__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

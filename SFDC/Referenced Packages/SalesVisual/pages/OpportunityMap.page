@@ -1,0 +1,5 @@
+<apex:page sidebar="false" standardController="Opportunity" >
+    <c:IncludeStyles ></c:IncludeStyles>
+    <c:OpportunityMap Opportunity="{!opportunity}" ></c:OpportunityMap>
+    <c:IncludeScripts ></c:IncludeScripts>
+</apex:page>

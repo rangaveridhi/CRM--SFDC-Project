@@ -1,0 +1,7 @@
+<apex:component >
+    <apex:stylesheet value="https://s3.amazonaws.com/SalesVisual/styles.css"/>
+    <!--<apex:stylesheet value="http://v1.prospectvisual.com/Scripts/SV/styles.css"/>-->
+    <apex:stylesheet value="{!URLFOR($Resource.salesvisual__Slider, 'Slider/css/overcast/jquery-ui-1.8.17.custom.css')}"/>
+    <apex:stylesheet value="{!URLFOR($Resource.salesvisual__Colorbox, 'colorbox/colorbox.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.salesvisual__Accordion, 'accordion/tabs-accordion.css')}" />
+</apex:component>

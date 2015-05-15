@@ -1,0 +1,30 @@
+<apex:page standardController="Contact" extensions="contactOppsExtension">
+   <apex:form >
+    <apex:pageMessages />
+    <apex:pageBlock mode="edit" id="results">
+        <apex:pageBlockTable value="{!listBoughtOpps}" var="lo">
+                             
+         <apex:column >
+                <apex:facet name="header">
+                  
+                    <apex:commandLink value="Products Bought"  rerender="results,debug">
+                           <apex:param value="Opportunity Name"/>
+                    </apex:commandLink>
+                    
+                </apex:facet>
+                <apex:outputLink value="/{!lo.id}" target="_blank">
+                    <apex:outputField value="{!lo.name}" />
+                  </apex:outputLink>
+         </apex:column>
+          
+           <apex:column value="{!lo.stageName}"/>
+           <apex:column value="{!lo.closeDate}"/>
+           <apex:column value="{!lo.createdById}"/>
+          
+                       
+              
+            
+        </apex:pageBlockTable>
+    </apex:pageBlock> 
+  </apex:form>     
+</apex:page>

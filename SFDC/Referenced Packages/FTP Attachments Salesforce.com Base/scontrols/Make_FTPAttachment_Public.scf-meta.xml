@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scontrol xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contentSource>HTML</contentSource>
+    <description>This S-Control makes a FTP Attachment public, this should be put in the FTP Attachment page layout as &quot;Make Public&quot;</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Make FTPAttachment Public</name>
+    <supportsCaching>true</supportsCaching>
+</Scontrol>

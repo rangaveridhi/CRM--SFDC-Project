@@ -1,0 +1,25 @@
+<apex:page standardController="Relation__c" extensions="RelationExtension">
+    <!-- The error message block -->
+    <apex:pageMessages />
+
+    <apex:form id="form2">
+        <apex:pageBlock title="New Relation ">
+            <apex:pageBlockSection >
+                <apex:inputField value="{!Relation__c.Related_Contact__c}"/>
+                <apex:inputField value="{!Relation__c.Relation_Type__c}" />
+                
+                <apex:outputLink style="float:center" value="{!URLFOR($Action.Contact.NewContact)}">
+                 New Contact
+                 </apex:outputLink>
+                
+                <apex:inputField value="{!Relation__c.Parent_Contact__c}" />
+            </apex:pageBlockSection>
+              <apex:pageBlockButtons >
+              <apex:commandButton action="{!save}" value="Save"/>
+            <apex:commandButton action="{!Cancel}" value="Cancel"/>
+             </apex:pageBlockButtons>
+                  
+ </apex:pageBlock>
+    </apex:form>
+ 
+ </apex:page>

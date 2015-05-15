@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>NAME</field>
+    </columns>
+    <columns>
+        <field>UNIT_PRICE</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.Level_of_Interest__c</field>
+    </columns>
+    <columns>
+        <field>OPPORTUNITY_NAME</field>
+    </columns>
+    <columns>
+        <field>OpportunityLineItem.Selection__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1) OR 2</booleanFilter>
+        <criteriaItems>
+            <column>OpportunityLineItem.Level_of_Interest__c</column>
+            <operator>equals</operator>
+            <value>Strong</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>OpportunityLineItem.Level_of_Interest__c</column>
+            <operator>equals</operator>
+            <value>Warm</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Level of Interest</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ProductOpportunity</reportType>
+    <showDetails>true</showDetails>
+    <sortColumn>NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,8 @@
+<apex:page controller="datePicker" id="mypage">
+    <apex:form >    
+        Date: <apex:inputText value="{!datename}" size="10" id="demo" onfocus="DatePicker.pickDate(false, this , false);" />    
+       
+       Action point date:<apex:inputField value="{!interact.Action_Point_date__c}"/>
+        <apex:commandButton action="{!save}" value="save"/>
+    </apex:form>
+</apex:page>

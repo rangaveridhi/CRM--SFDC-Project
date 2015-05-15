@@ -1,0 +1,109 @@
+<apex:component >
+    <apex:attribute name="fullMapPath" type="String" description="Full Map Path"/>
+    <div id="mapContainer" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <div id="menu">
+            <div id="buttons">
+                <a target="_parent" title="Help" href="{!URLFOR($Page.FAQ)}"><img src="{!URLFOR($Resource.Icons, 'img/help.png')}" /></a>
+                <!--<input id="pause" title="Pause Animation" type="image" src="{!URLFOR($Resource.Icons, 'img/pause.png')}" value="pause" onclick="javascript:force.stop();" /><input
+                    id="play" title="Resume Animation" type="image" src="{!URLFOR($Resource.Icons, 'img/play.png')}"   value="play" onclick="javascript:force.start();" />-->
+                <input
+                    id="reload" title="Reload Map" type="image" src="{!URLFOR($Resource.Icons, 'img/refresh.png')}"   value="reload" onclick="javascript:InitializeMap();" />
+                    <a target="_parent" title="Full Screen" href="{!fullMapPath}"><img src="{!URLFOR($Resource.Icons, 'img/monitor.png')}" /></a>
+            </div>
+            <div id="types">
+            </div>
+        </div>
+        <div id="map">
+            <img src="{!URLFOR($Resource.Icons, 'img/folder.png')}"
+                onclick="$('#infoBox').toggle('slow')" 
+                title="Click to minimize / maximize this list"
+                style="float:right;height:auto;width:20px;position:absolute; right:5px; top:5px;z-index:2000; cursor:pointer;" />
+            <div id="infoBox">
+                <!-- accordion -->
+                <input type="text" id="search" placeholder="Search entities here" />
+                <div id="accordion">
+                </div>
+            </div>
+            <div id="filters" >
+                <img src="{!URLFOR($Resource.Icons, 'img/filter.png')}"
+                    data-bind="visible: filterGroups().length > 0"
+                    style="height:auto;width:20px;cursor:pointer;"
+                    title="Click to minimize / maximize filters"
+                    onclick="$('#filterBox').toggle('slow')" />
+                
+                <div id="filterBox">
+                    <button data-bind="click: submit, visible: filterGroups().length > 0" style="float:right;margin-top:-25px;margin-right:5px;">Apply Filter</button>
+                    <div id="filterContainer" data-bind="foreach: filterGroups">
+                        <div class="filterGroup">
+                            <span data-bind="text: typeName" />
+                            <div style="margin-left:10px" data-bind="foreach: filterItems">
+                                <div data-bind="if: controlType == 'slider'">
+                                    <span data-bind="text: label" />:
+                                    <input type="text" data-bind='value: val' style='width:30px;'/>
+                                </div>
+                                <div data-bind="if: controlType == 'checkbox'">
+                                    <span data-bind="text: label" />:
+                                    <input type="checkbox" data-bind="checked: isChecked" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<button data-bind="click: printData, visible: filterGroups().length > 0"> Print </button>-->
+                </div>
+            </div>
+            <svg>
+                <defs>            
+                    <pattern id="Account24" patternTransform="translate(0,-362)" patternUnits="objectBoundingBox" x="0" y="0" width="48" height="48">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="Contact24" patternTransform="translate(0,-502)" patternUnits="objectBoundingBox" x="0" y="0" width="48" height="48">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="Opportunity24" patternTransform="translate(0,-782)" patternUnits="objectBoundingBox" x="0" y="0" width="48" height="48">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="Campaign24" patternTransform="translate(0,-418)" patternUnits="objectBoundingBox" x="0" y="0" width="48" height="48">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="User24" patternTransform="translate(0,0)" patternUnits="objectBoundingBox" x="0" y="0" width="48" height="48">
+                        <image x="0" y="0" width="24" height="24" xlink:href="/img/icon/profile24.png"/> 
+                    </pattern>
+                    <pattern id="Me24" patternTransform="translate(0,0)" patternUnits="objectBoundingBox" x="0" y="0" width="48" height="48">
+                        <image x="0" y="0" width="24" height="24" xlink:href="/img/icon/alohaProfile24.png"/> 
+                    </pattern>
+                    <pattern id="Product224" patternTransform="translate(0,0)" patternUnits="objectBoundingBox" x="0" y="0" width="48" height="48">
+                        <image x="0" y="0" width="24" height="24" xlink:href="/img/icon/products24.png"/> 
+                    </pattern>
+                    <pattern id="Account16" patternTransform="translate(0,-2)" patternUnits="objectBoundingBox" x="0" y="0" width="32" height="32">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="Contact16" patternTransform="translate(0,-82)" patternUnits="objectBoundingBox" x="0" y="0" width="32" height="32">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="Opportunity16" patternTransform="translate(0,-242)" patternUnits="objectBoundingBox" x="0" y="0" width="32" height="32">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="Campaign16" patternTransform="translate(0,-42)" patternUnits="objectBoundingBox" x="0" y="0" width="32" height="32">
+                        <image x="0" y="0" width="32" height="1308" xlink:href="/img/sprites/master.png"/> 
+                    </pattern>
+                    <pattern id="User16" patternTransform="translate(0,0)" patternUnits="objectBoundingBox" x="0" y="0" width="32" height="32">
+                        <image x="0" y="0" width="16" height="16" xlink:href="/img/icon/profile16.png"/> 
+                    </pattern>
+                    <pattern id="Me16" patternUnits="objectBoundingBox" x="0" y="0" width="16" height="16">
+                        <image x="0" y="0" width="16" height="16" xlink:href="/img/icon/alohaProfile16.png"/> 
+                    </pattern>
+                    <pattern id="Product216" patternTransform="translate(0,0)" patternUnits="objectBoundingBox" x="0" y="0" width="32" height="32">
+                        <image x="0" y="0" width="16" height="16" xlink:href="/img/icon/products16.png"/> 
+                    </pattern>
+                    <pattern id="16" patternTransform="translate(0,0)" patternUnits="objectBoundingBox" x="0" y="0" width="32" height="32">
+                        <circle cx="8" cy="8" r="5" fill="#ccccff" stroke="blue" stroke-width="1"/> 
+                    </pattern>
+                </defs>
+            </svg>
+        </div>
+        <div style="padding: 10px; width: 200px; !important; position:Absolute; bottom:0px; left:10px;">
+            <img onclick="javascript:$('#zoomSlider').toggle('slow')" style="cursor:pointer;float:left;margin-top:-3px;height:auto;width:16px;" src="{!URLFOR($Resource.Icons, 'img/magnifyingglass.png')}" />
+            <div style="margin-left:20px;" id="zoomSlider"></div>
+        </div>
+    </div>
+</apex:component>

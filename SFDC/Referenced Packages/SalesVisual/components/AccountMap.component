@@ -1,0 +1,9 @@
+<apex:component controller="salesvisual.AccountMap" >
+    <apex:attribute name="Account" type="Account"  assignTo="{!rootAccount}" description="Current Account"/>
+  <!-- Begin Default Content REMOVE THIS -->
+  <script type="text/javascript">
+    var json = {!data};
+  </script>
+  <c:MapContainer fullMapPath="{!URLFOR($Page.salesvisual__AccountMap, null, [id=Account.id])}" ></c:MapContainer>
+  <!-- End Default Content REMOVE THIS -->
+</apex:component>

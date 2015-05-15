@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FTP Attachments Salesforce%2Ecom Base</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>FTP Attachments™ is a award winning application for Salesforce. It allows your Salesforce users to save their attachments on your own servers instead of storing files in Salesforce. Which inturn gives you huge cost benifits and total control over your data.
+
+Other than this there are many nice features in FTP Attachments™ Pro like versioning, Self Service Portal support, Audit trail, using multiple storage servers and support for local storage server, FTP Server, FTPS and Amazon S3.
+
+Also FTP Attachments™ Migrator allows you to migrate your existing Salesforce attachments to FTP Attachments™ Pro.</description>
+    <namespacePrefix>ENZ</namespacePrefix>
+    <setupWeblink>FTPAttachmentsSetup</setupWeblink>
+    <types>
+        <members>FTPAttachments</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>FTPAttachmentAccessLog__c.AccessType__c</members>
+        <members>FTPAttachmentAccessLog__c.ParentVersion__c</members>
+        <members>FTPAttachmentAccessLog__c.Parent__c</members>
+        <members>FTPAttachmentAccessLog__c.SelfServicePortalUser__c</members>
+        <members>FTPAttachmentAccessLog__c.Version__c</members>
+        <members>FTPAttachmentVersion__c.Bytes__c</members>
+        <members>FTPAttachmentVersion__c.Comment__c</members>
+        <members>FTPAttachmentVersion__c.File__c</members>
+        <members>FTPAttachmentVersion__c.LastViewedOn__c</members>
+        <members>FTPAttachmentVersion__c.Parent__c</members>
+        <members>FTPAttachmentVersion__c.Size__c</members>
+        <members>FTPAttachmentVersion__c.VersionID__c</members>
+        <members>FTPAttachmentVersion__c.ViewCount__c</members>
+        <members>FTPAttachment__c.Account__c</members>
+        <members>FTPAttachment__c.Asset__c</members>
+        <members>FTPAttachment__c.Bytes__c</members>
+        <members>FTPAttachment__c.Case__c</members>
+        <members>FTPAttachment__c.Comment__c</members>
+        <members>FTPAttachment__c.Contact__c</members>
+        <members>FTPAttachment__c.Contract__c</members>
+        <members>FTPAttachment__c.File__c</members>
+        <members>FTPAttachment__c.IsPublic__c</members>
+        <members>FTPAttachment__c.LastUpdatedOn__c</members>
+        <members>FTPAttachment__c.LastVersionID__c</members>
+        <members>FTPAttachment__c.LastViewedOn__c</members>
+        <members>FTPAttachment__c.Opportunity__c</members>
+        <members>FTPAttachment__c.ServerProfile__c</members>
+        <members>FTPAttachment__c.Size__c</members>
+        <members>FTPAttachment__c.Solution__c</members>
+        <members>FTPAttachment__c.ViewCount__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>FTPAttachmentAccessLog__c</members>
+        <members>FTPAttachmentVersion__c</members>
+        <members>FTPAttachment__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>FTPAttachmentsSetup</members>
+        <name>CustomPageWebLink</name>
+    </types>
+    <types>
+        <members>FTPAttachment__c</members>
+        <members>FTPAttachmentsSetup</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Enzigma</members>
+        <members>Enzigma/FTPAttachmentsLogo.png</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>FTPAttachmentAccessLog__c-FTP Attachments Access Log Layout</members>
+        <members>FTPAttachmentVersion__c-FTP Attachment Version Layout</members>
+        <members>FTPAttachment__c-FTP Attachments Layout</members>
+        <members>FTPAttachment__c-FTP Attachments Pro Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>FTPAttachment__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Make_FTPAttachment_Private</members>
+        <members>Make_FTPAttachment_Public</members>
+        <name>Scontrol</name>
+    </types>
+    <types>
+        <members>Account.AttachFTP</members>
+        <members>Asset.AttachFTP</members>
+        <members>Case.AttachFTP</members>
+        <members>Contact.AttachFTP</members>
+        <members>Contract.AttachFTP</members>
+        <members>FTPAttachmentVersion__c.View</members>
+        <members>FTPAttachmentVersion__c.View_Local</members>
+        <members>FTPAttachment__c.Delete</members>
+        <members>FTPAttachment__c.Delete_Local</members>
+        <members>FTPAttachment__c.Make_Private</members>
+        <members>FTPAttachment__c.Make_Public</members>
+        <members>FTPAttachment__c.UpdateAttachment</members>
+        <members>FTPAttachment__c.Update_Local</members>
+        <members>FTPAttachment__c.View</members>
+        <members>FTPAttachment__c.View_Local</members>
+        <members>Opportunity.AttachFTP</members>
+        <members>Solution.AttachFTP</members>
+        <name>WebLink</name>
+    </types>
+    <version>27.0</version>
+</Package>

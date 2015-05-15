@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OWNER_FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>SALUTATION</field>
+    </columns>
+    <columns>
+        <field>Contact.Next_Anniversary_Date__c</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.Role_of_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Residence_Address_1__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Residence_Address_2__c</field>
+    </columns>
+    <columns>
+        <field>PHONE4</field>
+    </columns>
+    <columns>
+        <field>PHONE3</field>
+    </columns>
+    <description>Anniversaries month-wise</description>
+    <format>Tabular</format>
+    <name>Anniversary Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Contact.Next_Anniversary_Date__c</dateColumn>
+        <endDate>2013-09-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2013-07-01</startDate>
+    </timeFrameFilter>
+</Report>

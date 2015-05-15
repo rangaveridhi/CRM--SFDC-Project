@@ -1,0 +1,24 @@
+<apex:component controller="salesvisual.UserMap" >
+    <apex:attribute name="User" type="User"  assignTo="{!rootUser}" description="Current User"/>
+  <!-- Begin Default Content REMOVE THIS -->
+  <script type="text/javascript">
+    var json = {!data};
+    var filter = {!filter};
+    function applyFilter(newFilter)
+    { 
+       salesvisual.UserMap.ApplyFilter(newFilter, function(result, event){
+          if(event.status && event.result)
+          {
+              json = $.parseJSON(event.result); 
+              InitializeMap();
+          }
+          else
+          {
+              alert(event.message);
+          }
+      }, {escape:false});
+    }
+  </script>
+  <c:MapContainer fullMapPath="{!URLFOR($Page.salesvisual__UserMap, null, [id=User.id])}"></c:MapContainer>
+  <!-- End Default Content REMOVE THIS -->
+</apex:component>

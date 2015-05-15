@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Account_ExternalID__c</fullName>
+        <externalId>true</externalId>
+        <label>Account_ExternalID</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Account_Type__c</fullName>
+        <label>Account Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Buyer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Misc</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Annual_Income__c</fullName>
+        <label>Annual Income</label>
+        <picklist>
+            <picklistValues>
+                <fullName>50 Lacs to 1 Crore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>1 Crore to 5 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 Crores to 10 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 Crores to 20 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>More than 20 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Birthday_Details__c</fullName>
+        <inlineHelpText>Enter more information on birthday</inlineHelpText>
+        <label>Birthday Details</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Birthday__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Birthday</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Business_Deal_Details__c</fullName>
+        <inlineHelpText>Enter Business Deal information</inlineHelpText>
+        <label>Business Deal Details</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Cars_Owned__c</fullName>
+        <label>Cars Owned</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Mercedes</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BMW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Porche</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bentley</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rolls Royce</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Audi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jaguar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mercedes S-Class</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>BMW 7 Series</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Childbday_Prg__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Childbirth/Pregnancy</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Childbirth_Pregnancy_dtls__c</fullName>
+        <inlineHelpText>Enter more info on childbirth/pregnancy</inlineHelpText>
+        <label>Childbirth/Pregnancy Details</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <label>Family Head</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Accounts</relationshipLabel>
+        <relationshipName>Accounts</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Diwali_Dushera__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Diwali/Dushera</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Diwali_Dushera_dtls__c</fullName>
+        <inlineHelpText>Enter further details</inlineHelpText>
+        <label>Diwali or Dushera</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Email_Office__c</fullName>
+        <label>Email Office</label>
+        <type>Email</type>
+    </fields>
+    <fields>
+        <fullName>Festival_Information_dtls__c</fullName>
+        <inlineHelpText>Enter more details on festival</inlineHelpText>
+        <label>Festival Information</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Festivals__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Festivals</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Inheritance__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Inheritance</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Inheritance_details__c</fullName>
+        <inlineHelpText>Enter inheritance details</inlineHelpText>
+        <label>Inheritance Details</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Interest_Shown__c</fullName>
+        <label>Interest Shown</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Qualified_By__c</fullName>
+        <label>Lead Qualified By</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Nirav Modi</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Aparna Chudasama</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_initial_Status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Lead initial Status</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Name_of__c</fullName>
+        <label>Name of the Company</label>
+        <length>150</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Network_Contact__c</fullName>
+        <label>Network Contact</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Networth__c</fullName>
+        <label>Networth</label>
+        <picklist>
+            <picklistValues>
+                <fullName>50 Crores to 100 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>100 Crores to 200 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>200 Crores to 300 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>300 Crores to 400 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>400 Crores to 500 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>More than 500 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Less Than 50 Crores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Other_Cars_Owned__c</fullName>
+        <label>Other Cars Owned</label>
+        <length>40</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Other_Occasions1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Other Occasions</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other_Occasions__c</fullName>
+        <inlineHelpText>Please enter in numeric format</inlineHelpText>
+        <label>Other Occasions</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Other_Occasions_dtls__c</fullName>
+        <inlineHelpText>Enter other occasions details</inlineHelpText>
+        <label>Other Occasions Details</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Private__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To allow privacy</description>
+        <label>Private</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Propensity_to_Spend1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Propensity to Spend</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Property_Networth__c</fullName>
+        <label>Property Networth</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Rating_Information__c</fullName>
+        <label>Rating</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Rating__c</fullName>
+        <formula>( Wedding_in_the_family_this_year__c  +  Network_Contact__c  +  Interest_Shown__c ) + (Other_Occasions__c) / 4</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Rating</label>
+        <precision>18</precision>
+        <scale>2</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Residence_Address_1__c</fullName>
+        <label>Residence Address 1</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Residence_Address_2__c</fullName>
+        <label>Residence Address 2</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Residence_Address_3__c</fullName>
+        <label>Residence Address 3</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Rknews__News_Search_Override__c</fullName>
+        <description>This field will override the default Account Name Search for the Redkite News component.</description>
+        <inlineHelpText>This field will override the default Account Name Search for the Redkite News component.  Please enter a search term for the news articles that you would like to see for this Account.</inlineHelpText>
+        <label>News Search Override</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>SecretaryName__c</fullName>
+        <inlineHelpText>Add Secretary Name</inlineHelpText>
+        <label>Secretary Name</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Secretarycontact__c</fullName>
+        <inlineHelpText>Add Secretary contact no</inlineHelpText>
+        <label>Secretary Contact</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Secretaryemail__c</fullName>
+        <inlineHelpText>Add Secretary Email Id</inlineHelpText>
+        <label>Secretary Email</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Spending_Capacity__c</fullName>
+        <inlineHelpText>Please enter further details on Propensity to spend</inlineHelpText>
+        <label>Spending Capacity</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Success_of_a_Business_Deal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Success of a Business Deal</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tel_Office__c</fullName>
+        <label>Tel Office</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Wedding_Anniversary_Details__c</fullName>
+        <inlineHelpText>Add more info on wedding anniversary dtls</inlineHelpText>
+        <label>Wedding Anniversary Details</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Wedding_Anniversary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Wedding Anniversary</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Wedding_Information__c</fullName>
+        <inlineHelpText>Enter info on wedding details</inlineHelpText>
+        <label>Wedding Details</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Wedding_in_the_Family__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Wedding in the Family</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Wedding_in_the_family_this_year__c</fullName>
+        <inlineHelpText>10-Very Close Family Members
+1-Distant Family Members</inlineHelpText>
+        <label>Wedding in the family this year</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <validationRules>
+        <fullName>Account_Type_Validation_Rule</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( ISPICKVAL( Type , &quot;targets&quot;) , ISBLANK( Rating__c ))</errorConditionFormula>
+        <errorMessage>Make &quot;Rating&quot; field active only when the Account Type is ‘Target’</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Anniversary_validation</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(AND( Wedding_Anniversary__c =true, Wedding_Anniversary_Details__c =&quot;&quot;),AND( Wedding_Anniversary__c =FALSE, Wedding_Anniversary_Details__c &lt;&gt;&quot;&quot;))</errorConditionFormula>
+        <errorMessage>Wedding Anniversary Details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Birthday_Validation</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR( AND ( Birthday__c =false, Birthday_Details__c &lt;&gt; &quot;&quot;), AND ( Birthday__c = true, Birthday_Details__c = &quot;&quot;))</errorConditionFormula>
+        <errorMessage>Birthday details error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ChildBirth_Validation</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(AND ( Childbday_Prg__c   = true,  Childbirth_Pregnancy_dtls__c   = &quot;&quot;),AND ( Childbday_Prg__c   = FALSE,  Childbirth_Pregnancy_dtls__c   &lt;&gt; &quot;&quot;))</errorConditionFormula>
+        <errorMessage>Childbirth/Pregnancy Details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Diwali_dashera_Validation</fullName>
+        <active>false</active>
+        <description>Diwali Dashera Error</description>
+        <errorConditionFormula>OR(AND (  Diwali_Dushera__c   = true,   Diwali_Dushera_dtls__c   = &quot;&quot;),AND (  Diwali_Dushera__c   = FALSE,   Diwali_Dushera_dtls__c   &lt;&gt;&quot;&quot;))</errorConditionFormula>
+        <errorMessage>Diwali or Dashera Details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Festival_Validation</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(AND ( Festivals__c    = true,   Festival_Information_dtls__c    = &quot;&quot;),AND ( Festivals__c    = FALSE,   Festival_Information_dtls__c    &lt;&gt; &quot;&quot;))</errorConditionFormula>
+        <errorMessage>Festival Details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Inheritance_validation</fullName>
+        <active>false</active>
+        <description>Inheritance Error</description>
+        <errorConditionFormula>OR(AND( Inheritance__c =true, Inheritance_details__c =&quot;&quot;),AND( Inheritance__c =FALSE, Inheritance_details__c &lt;&gt;&quot;&quot;))</errorConditionFormula>
+        <errorMessage>Inheritance details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Other_Occasions_Validation</fullName>
+        <active>false</active>
+        <description>Other occasions Details Error</description>
+        <errorConditionFormula>OR(AND ( Other_Occasions1__c     = true,   Other_Occasions_dtls__c  = &quot;&quot;),AND ( Other_Occasions1__c     = FALSE,   Other_Occasions_dtls__c  &lt;&gt; &quot;&quot;))</errorConditionFormula>
+        <errorMessage>Other occasions Details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Propensitytospend_validation</fullName>
+        <active>false</active>
+        <description>spending Capatity details Error</description>
+        <errorConditionFormula>OR(AND( Propensity_to_Spend1__c =true, Spending_Capacity__c =&quot;&quot;),AND( Propensity_to_Spend1__c =FALSE, Spending_Capacity__c &lt;&gt;&quot;&quot;))</errorConditionFormula>
+        <errorMessage>spending Capatity details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Successbusinessdeal_validation</fullName>
+        <active>false</active>
+        <description>Business deal Details Error</description>
+        <errorConditionFormula>OR(AND( Success_of_a_Business_Deal__c =true, Business_Deal_Details__c=&quot;&quot;),AND( Success_of_a_Business_Deal__c =FALSE, Business_Deal_Details__c&lt;&gt;&quot;&quot;))</errorConditionFormula>
+        <errorMessage>Business deal Details Error</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Wedding_Validation</fullName>
+        <active>false</active>
+        <description>Wedding Details Error</description>
+        <errorConditionFormula>OR(AND (  Wedding_in_the_Family__c  = true,  Wedding_Information__c  = &quot;&quot;),AND (  Wedding_in_the_Family__c  = FALSE,  Wedding_Information__c  &lt;&gt; &quot;&quot;))</errorConditionFormula>
+        <errorMessage>Wedding Details Error</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>AltavistaNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Altavista News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://news.altavista.com/search?nc=0&amp;q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>ENZ__AttachFTP</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>350</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Attach (FTP)</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>https://www.enzigma.com/sforce/ftp/Attach.aspx?FieldName=ENZ__Account__c&amp;FieldValue={!Account.Id}&amp;OrgID={!Organization.Id}&amp;SFUrl={!API.Partner_Server_URL_70}&amp;SFSessionID={!API.Session_ID}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Account_BillingStreet}+{!Account_BillingCity}+{!Account_BillingState}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>http://www.google.com/news?&amp;q={!Account_Name}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>http://www.google.com/search?q={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>HooversProfile</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Hoovers Profile</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Account_Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Account_BillingCountry}&amp;csz={!Account_BillingCity}+{!Account_BillingState}+{!Account_BillingPostalCode}+&amp;addr={!Account_BillingAddress}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>salesvisual__Map_Accounts</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Map Accounts</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!requireScript(&quot;/soap/ajax/24.0/connection.js&quot;)}
+{!requireScript(&quot;/soap/ajax/24.0/apex.js&quot;)}
+idArray = {!GETRECORDIDS($ObjectType.Account)};
+
+if(idArray.length == 0)
+{
+     alert(&quot;Please select at least one account to map&quot;);
+}
+else if(idArray.length &gt; 20)
+{
+     alert(&quot;Please select no more than 20 accounts to map&quot;);
+}
+else
+{
+   // try the namespace first
+   var pageUrl = sforce.apex.execute(&quot;salesvisual.AccountMap&quot;, &quot;getPageUrl&quot;, {ids: idArray.toString()});
+   if (pageUrl == null)
+   {
+      var pageUrl = sforce.apex.execute(&quot;AccountMap&quot;, &quot;getPageUrl&quot;,  {ids: idArray.toString()});
+   }
+   window.location.href = pageUrl;
+}</url>
+    </webLinks>
+</CustomObject>

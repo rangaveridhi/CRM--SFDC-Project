@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Holds information of hand held device session information(Customer and his chosen products) , synched to this salesforce instance.</description>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Action_point_Date__c</fullName>
+        <label>Action point Date</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Action_point__c</fullName>
+        <label>Action point</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Availability__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Availability</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CreatedDateFormula__c</fullName>
+        <formula>TEXT( datevalue(CreatedDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CreatedDateFormula</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Name__c</fullName>
+        <label>Customer Name</label>
+        <length>50</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>End_Date_Time__c</fullName>
+        <label>End Date/Time</label>
+        <length>55</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>If_Time_Spent_on_Level_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>If Time Spent on Level 1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>If_Time_Spent_on_Level_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>If Time Spent on Level 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Interaction_Name1__c</fullName>
+        <formula>Customer_Name__c +   Medium_of_Interaction__c +  TEXT( Start_Date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Interaction Name</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Interaction_Name__c</fullName>
+        <label>Interaction Name</label>
+        <length>75</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Interaction_Reason_for_Acceptance_or_Rej__c</fullName>
+        <label>Interaction Reason for Acceptance or Rej</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Ipad_Username__c</fullName>
+        <label>Sales User&apos;s EmailId</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Medium_of_Interaction__c</fullName>
+        <label>Medium of Interaction</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Opp_Reason_for_acceptance_rejection__c</fullName>
+        <label>Opp Reason for acceptance/rejection</label>
+        <length>25</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <label>Opportunity Stage</label>
+        <length>25</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Outcome__c</fullName>
+        <label>Outcome</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Product_Status__c</fullName>
+        <label>Product Status</label>
+        <length>25</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Product_Style_No__c</fullName>
+        <externalId>true</externalId>
+        <label>Product Style No</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Product__c</fullName>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipName>RemoteSessionData</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sales_User_s_Name__c</fullName>
+        <label>Sales User&apos;s Name</label>
+        <length>60</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>SessionID__c</fullName>
+        <description>Session ID of Remote.</description>
+        <externalId>true</externalId>
+        <label>Ipad User Id</label>
+        <length>30</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Time__c</fullName>
+        <description>Start Date/Time</description>
+        <inlineHelpText>Start Date/Time of Interaction</inlineHelpText>
+        <label>Start Date/Time</label>
+        <length>55</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date__c</fullName>
+        <label>Start Date</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Time_Spent_On_Level_1_in_Minutes__c</fullName>
+        <label>Time Spent On Level 1 in Minutes</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Time_Spent_On_Level_2_in_Minutes__c</fullName>
+        <label>Time Spent On Level 2 in Minutes</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>isDeleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <inlineHelpText>Soft Delete</inlineHelpText>
+        <label>isDeleted</label>
+        <type>Checkbox</type>
+    </fields>
+    <label>IpadSyncData</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>RSD-{0000000000}</displayFormat>
+        <label>RemoteSessionData Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>IpadSyncData</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

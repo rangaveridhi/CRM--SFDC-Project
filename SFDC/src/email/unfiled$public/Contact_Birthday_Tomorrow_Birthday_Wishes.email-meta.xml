@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Reminder: Please wish Contact on His Birthday Tomorrow</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Contact Birthday Tomorrow: Birthday Wishes</name>
+    <style>none</style>
+    <subject>Reminder: Please wish Contact on His Birthday Tomorrow</subject>
+    <type>text</type>
+</EmailTemplate>

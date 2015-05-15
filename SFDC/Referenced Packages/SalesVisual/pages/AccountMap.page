@@ -1,0 +1,5 @@
+<apex:page sidebar="false" standardController="Account" >
+    <c:IncludeStyles ></c:IncludeStyles>
+    <c:AccountMap Account="{!account}" ></c:AccountMap>
+    <c:IncludeScripts ></c:IncludeScripts>
+</apex:page>

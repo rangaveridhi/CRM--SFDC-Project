@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Opportunity Default  CloseDate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity_Default _Close</value>
+    </caseValues>
+    <fields>
+        <label><!-- Set no of days to close opportunity --></label>
+        <name>Set_no_of_days_to_close__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

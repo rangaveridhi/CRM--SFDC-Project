@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Custom object to capture details of an Interaction with a customer.</description>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <formula>Contact__r.Account.Name</formula>
+        <label>Account Name</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Interactions</relationshipLabel>
+        <relationshipName>Interactions</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Action_Point_date__c</fullName>
+        <label>Action Point Date</label>
+        <required>true</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Action_point__c</fullName>
+        <label>Action point</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Associated_Store__c</fullName>
+        <label>Associated Store</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Budget_given_in_lacs__c</fullName>
+        <label>Budget given (in lacs)</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Below 2.5 lacs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2.5 to 5 lacs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>5 to 10 lacs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10 to 15 lacs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>15 to 25 lacs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>35 to 50 lacs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>50 to 75 lacs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>75 lacs to 1 crore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Above 1 crore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Campaign__c</fullName>
+        <label>Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Interactions</relationshipLabel>
+        <relationshipName>Interactions</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <label>Venue City</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Ahmedabad</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Amritsar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Bangalore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chandigarh</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chennai</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dehradun</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Faridabad</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ghaziabad</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gurgaon</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hyderabad</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jaipur</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jodhpur</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kolkatta</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lucknow</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ludhiana</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mumbai</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mysore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Noida</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Patiala</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pune</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Srinagar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Udaipur</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <label>Profile</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Interactions</relationshipLabel>
+        <relationshipName>Interactions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>Creation_Date__c</fullName>
+        <label>Creation Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <label>Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <label>Description</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>End_Time__c</fullName>
+        <label>End Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Hyperlink_Interaction_Name__c</fullName>
+        <formula>HYPERLINK(&quot;https://cs3.salesforce.com/&quot; &amp; Id,  Interaction_Name__c,&quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Interaction Name</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>If_Time_Spent_on_Level_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>If Time Spent on Level 1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>If_Time_Spent_on_Level_2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>If Time Spent on Level 2</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Interaction_ExternalID__c</fullName>
+        <externalId>true</externalId>
+        <label>Interaction ExternalID</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Interaction_Name__c</fullName>
+        <formula>Contact__r.FirstName+&apos; &apos;+ Contact__r.LastName  &amp; IF(NOT(ISBLANK(text(Purpose_of_interaction__c))),&quot; (&quot; +  text(Purpose_of_interaction__c)+ &quot;) &quot;,&apos; &apos;) &amp;  Name</formula>
+        <label>Interaction Name1</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Jewellery_Worn_if_any__c</fullName>
+        <label>Jewellery Worn, if any</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Location_Detail__c</fullName>
+        <label>Venue Location Detail</label>
+        <length>150</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Medium_of_Interaction__c</fullName>
+        <label>Medium of Interaction</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing communication</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting at external event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Meeting instore event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SMS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store interaction</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Out of Store appointment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Outcome__c</fullName>
+        <label>Outcome</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Bought</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Invite Accepted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Invite Rejected</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sale lost</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Shortlisted</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Will come back again</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Purpose_of_Purchase_Interest__c</fullName>
+        <label>Customer Purchase Interest</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Festival-Holi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Anniversary</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Birthday</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Festival - Akshay Tritiya</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Festival - Christmas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Festival - Diwali</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Festival - Id</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Festival - Karva chauth</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Festival - Others</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Festival - Rakshabandhan</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>For self</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>General Gifting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Investment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Professional Promotion</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding (Functions unknown)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding (Engagement)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding (Gifting)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding (Reception)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding (Pheras)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Wedding (Sangeet / Cocktail)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Purpose_of_interaction__c</fullName>
+        <label>Sales person purpose of interaction</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Birthday / Anniversary</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Collaboration</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Collection Launch</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event invite</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Follow up</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gift</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NMJ Sales Line</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reference Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Store Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Success in business</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Upcoming Wedding</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Website Query</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Rejection_Acceptance__c</fullName>
+        <description>Reason for Buying/Rejection</description>
+        <label>Reason for Buying/Rejection</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Craftmanship</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Diamond Quality</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Exclusivity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not Comfortable</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unavailability</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Remarks__c</fullName>
+        <label>Remarks</label>
+        <length>131072</length>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Staff_1__c</fullName>
+        <label>Staff1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Interactions</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Staff_2__c</fullName>
+        <label>Staff2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Interactions1</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Start_Time__c</fullName>
+        <label>Start Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Time_Spent_On_Level_1_in_Minutes__c</fullName>
+        <label>Time Spent On Level 1 in Minutes</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Time_Spent_On_Level_2_in_Minutes__c</fullName>
+        <label>Time Spent On Level 2 in Minutes</label>
+        <precision>3</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <label>Interaction</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Interaction ID- {0000}</displayFormat>
+        <label>Interaction External ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Interactions</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Staff1_and_Staff2_Check</fullName>
+        <active>true</active>
+        <description>Staff1 and Staff2 should not be same check</description>
+        <errorConditionFormula>IF(
+NOT(ISBLANK(Staff_1__c)),
+IF((Staff_1__c=Staff_2__c),
+true,false),false)</errorConditionFormula>
+        <errorDisplayField>Staff_2__c</errorDisplayField>
+        <errorMessage>Staff1 and Staff2  should not be same</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Add_Product</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Product</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/Add_Product?InteractionId={!Interaction__c.Id}&amp;contactId={!Interaction__c.ContactId__c}&amp;campaignID={!Interaction__c.CampaignId__c}</url>
+    </webLinks>
+</CustomObject>

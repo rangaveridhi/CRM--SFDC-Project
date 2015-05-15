@@ -1,0 +1,6 @@
+Dear {!Account.OwnerFullName},  
+
+It is {!Contact.FirstName}'s birthday on {!Contact.Reset_Next_Birthday__c}. Please make sure to wish him / her.
+
+Regards,  
+Nirav Modi

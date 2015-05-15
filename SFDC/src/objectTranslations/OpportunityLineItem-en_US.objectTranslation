@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Jewellery - Showcased Items</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jewellery - Showcased Items</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <value>Jewellery - Showcased Items Description</value>
+        </caseValues>
+        <name>opportunity_product_description</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <value>Jewellery - Showcased Item Information</value>
+        </caseValues>
+        <name>opportunity_product_information</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <value>Jewellery - Showcased Item Report</value>
+        </caseValues>
+        <name>opportunity_product_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Level of Interest --></label>
+        <name>Level_of_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Cannot Tell</masterLabel>
+            <translation><!-- Cannot Tell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong</masterLabel>
+            <translation><!-- Strong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planned Seq --></label>
+        <name>Planned_Seq__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selection --></label>
+        <name>Selection__c</name>
+    </fields>
+    <layouts>
+        <layout>Opportunity Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

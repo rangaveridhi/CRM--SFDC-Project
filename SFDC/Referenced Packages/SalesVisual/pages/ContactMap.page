@@ -1,0 +1,5 @@
+<apex:page sidebar="false" standardController="Contact" >
+    <c:IncludeStyles ></c:IncludeStyles>
+    <c:ContactMap Contact="{!contact}" ></c:ContactMap>
+    <c:IncludeScripts ></c:IncludeScripts>
+</apex:page>

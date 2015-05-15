@@ -1,0 +1,196 @@
+<apex:page docType="html-5.0" controller="syncDataController">
+    <style type="text/css">
+        
+        .popup
+        {
+        background-color: white;
+        border-width: 2px;
+        border-style: solid;
+        
+        z-index: 9999;
+        left: 50%;
+        padding:10px;
+        position: absolute;
+        width: 700px;
+        margin-left: -50px;
+        top:40px;
+        }
+        
+        .popupBg
+        {
+        background-color:black;
+        opacity: 0.20;
+        filter: alpha(opacity = 70);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9998;
+        }
+    </style>
+    
+    <script type="text/javascript">
+    function selectAllCheckboxes(obj,receivedInputID){
+        var inputCheckBox = document.getElementsByTagName("input");                  
+        for(var i=0; i<inputCheckBox.length; i++){          
+            if(inputCheckBox[i].id.indexOf(receivedInputID)!=-1){                                     
+                inputCheckBox[i].checked = obj.checked;
+            }
+        }
+    }
+    </script>
+    
+    
+    <apex:form id="myForm">
+        <!-- <apex:pageMessages id="showmsg"></apex:pageMessages> -->
+        <apex:pageMessages rendered="{!outOfSyncNotice}"/> 
+        
+        
+        
+        <apex:PageBlock id="PageBlock">
+            <apex:pageBlockSection columns="1" title="Profile Lookup" >
+                <span id="theText" style="font-style:bold"><b>Please select a Profile Name then click on the Interaction</b></span>
+                <apex:inputField REQuired="TRUE" id="Contact" value="{!contact.Profile_Name__c}"  />
+            </apex:pageBlockSection>
+        </apex:PageBlock>
+        
+        
+        
+        <apex:pageBlock title="Interaction Details" rendered="{!If(listSize <= 0,false,true) }" >
+            
+            <apex:pageBlockSection columns="1" > 
+                
+                
+                <apex:repeat value="{!listOpportunityProducts[0].remoteSessionData__r}" var="rsd"  >    
+                    
+                    <apex:outputText value="{!rsd.Customer_Name__c}" />
+                    <apex:outputText value="{!rsd.Interaction_Name__c}" />
+                    <apex:outputText value="{!rsd.Medium_of_Interaction__c}" />
+                    
+                </apex:repeat>
+                
+                <!-- <apex:outputPanel > 
+                    <apex:outputLabel value="Action Point">
+                        <apex:inputText value="{!actionPointText}" required="true" />
+                    </apex:outputLabel>
+                </apex:outputPanel>  -->
+                <apex:inputField value="{!aInteract.Action_point__c}" required="true"/>
+                <apex:inputField id="actionPointDate"  value="{!aInteract.Action_Point_date__c}" required="true" />
+                 <apex:inputField value="{!aInteract.Associated_Store__c}" required="true"/>
+                 <apex:inputField value="{!aInteract.Staff_1__c}" required="true"/>
+                <!--  
+                    Enter new fields in syncdata page code here........
+                    Ex: <apex:inputField value="{!aInteract.Staff_1__c}" required="true"/>
+                -->
+                
+                
+                
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock>
+        
+        
+        <apex:pageBlock mode="edit" title="Add products">
+            
+            <apex:pageBlockTable value="{!productList}" var="p" >
+                
+                <apex:column headerValue="Select">
+                    <apex:facet name="header" >
+                        <apex:inputCheckbox onclick="selectAllCheckboxes(this,'inputId')"/>
+                    </apex:facet>
+                    
+                    <apex:inputCheckbox value="{!p.selected}" id="inputId"/>
+                </apex:column>   
+                
+                <apex:column >
+                    <apex:facet name="header" >
+                        <apex:commandLink value="Style No"  >
+                            <apex:param value="styleNo"/>
+                        </apex:commandLink>
+                    </apex:facet>
+                    <apex:outputLink value="/{!p.prod2['Id']}">
+                        <apex:outputField value="{!p.prod2.Style_No__c}" />
+                    </apex:outputLink>
+                </apex:column>
+                
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink value="Product Name"  >
+                            <apex:param value="productName" />
+                        </apex:commandLink>
+                    </apex:facet>
+                    <apex:outputText value="{!p.prod2.name}"/>
+                </apex:column>
+                
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink value="Opportunity Stage"  >
+                        </apex:commandLink>
+                    </apex:facet>
+                    <apex:outputText value="{!p.selectedOpp}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink value="Product Status"  >
+                        </apex:commandLink>
+                    </apex:facet>
+                    <apex:outputText value="{!p.selectedProd}"/>
+                </apex:column>
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink value="Opportunity Reasons for Acceptance/Rejection"  >
+                        </apex:commandLink>
+                    </apex:facet>
+                    <apex:outputText value="{!p.selectedReason}"/>
+                </apex:column>                  
+                
+                <apex:column >
+                    <apex:facet name="header">
+                        <apex:commandLink value="Create opportunity"   >
+                        </apex:commandLink>
+                    </apex:facet>
+                    <!--<apex:outputText value="{!p.open}"/>-->
+                    <c:OutputCheckBox value="{!p.open}" />
+                </apex:column>
+                
+            </apex:pageBlockTable>
+            
+            
+            <apex:commandButton style="margin-left:475px;" action="{!addproduct}" value="Add Interaction" id="save" /> 
+            <apex:outputLabel style="margin-left:5px;" value="Delete after adding interaction"/>
+            <apex:inputCheckbox value="{!isDeleted}" id="isDelete" selected="true"/>
+            <apex:commandButton action="{!cancel}" value="Cancel"/>
+            <apex:commandButton action="{!deleteSession}" value="Delete"/>
+        </apex:pageBlock> 
+        
+        <apex:outputPanel id="popup" >
+            <apex:outputPanel styleClass="popupBg" layout="block" rendered="{!displayPopUp}"/>
+            <apex:outputPanel styleClass="popup" layout="block" rendered="{!displayPopUp}">
+                
+                <apex:pageBlock title="page messages" >
+                    
+                    <apex:pageBlockSection title="" collapsible="false">
+                        
+                        
+                        <apex:pageMessages escape="false"/>
+                        <!--
+                        <apex:outputlabel style="margin-left:10px;" value="Information"></apex:outputlabel>
+                        -->
+                    </apex:pageBlockSection>
+                    <apex:commandButton style="margin-left:250px;" value="Ok" action="{!okay}" />&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!--<apex:commandButton value="Hide" action="{!closePopup}" rerender="popup"/> -->
+                    
+                </apex:pageBlock>
+                
+            </apex:outputPanel>
+        </apex:outputPanel>        
+        
+        
+        
+    </apex:form> 
+</apex:page>

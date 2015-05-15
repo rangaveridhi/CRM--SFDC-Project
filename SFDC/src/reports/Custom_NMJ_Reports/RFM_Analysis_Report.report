@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_ACC_NAME</field>
+    </columns>
+    <columns>
+        <field>RFMAnalysis__c.Recency_Score__c</field>
+    </columns>
+    <columns>
+        <field>RFMAnalysis__c.Frequency_Score__c</field>
+    </columns>
+    <columns>
+        <field>RFMAnalysis__c.Monetary_Score__c</field>
+    </columns>
+    <columns>
+        <field>RFMAnalysis__c.RFM_Score__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>RFM Analysis Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$RFMAnalysis__c@RFMAnalysis__c.Contact__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>RFMAnalysis__c.RFM_Score__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

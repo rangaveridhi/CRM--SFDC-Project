@@ -1,0 +1,3724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Profile</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Profiles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Additional Remarks --></label>
+        <name>Additional_Remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anniversary Gift --></label>
+        <name>Anniversary_Gift__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anniversary --></label>
+        <name>Anniversary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Income --></label>
+        <name>Annual_Income__c</name>
+        <picklistValues>
+            <masterLabel>1 Crore to 5 Crores</masterLabel>
+            <translation><!-- 1 Crore to 5 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Crores to 20 Crores</masterLabel>
+            <translation><!-- 10 Crores to 20 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Crores to 10 Crores</masterLabel>
+            <translation><!-- 5 Crores to 10 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Lacs to 1 Crore</masterLabel>
+            <translation><!-- 50 Lacs to 1 Crore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than 20 Crores</masterLabel>
+            <translation><!-- More than 20 Crores --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Art (Likes) --></label>
+        <name>Art_Likes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Art (Dislikes) --></label>
+        <name>Art_dislikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthday Gift --></label>
+        <name>Birthday_Gift__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthday --></label>
+        <name>Birthday_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Car Brand --></label>
+        <name>Car_Brand__c</name>
+        <picklistValues>
+            <masterLabel>Audi</masterLabel>
+            <translation><!-- Audi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BMW</masterLabel>
+            <translation><!-- BMW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bentley</masterLabel>
+            <translation><!-- Bentley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cab</masterLabel>
+            <translation><!-- Cab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chevrolet</masterLabel>
+            <translation><!-- Chevrolet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ferrari</masterLabel>
+            <translation><!-- Ferrari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ford</masterLabel>
+            <translation><!-- Ford --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honda</masterLabel>
+            <translation><!-- Honda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyundai</masterLabel>
+            <translation><!-- Hyundai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaguar</masterLabel>
+            <translation><!-- Jaguar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Rover</masterLabel>
+            <translation><!-- Land Rover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mahindra</masterLabel>
+            <translation><!-- Mahindra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maruti</masterLabel>
+            <translation><!-- Maruti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercedes</masterLabel>
+            <translation><!-- Mercedes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Porsche</masterLabel>
+            <translation><!-- Porsche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renault</masterLabel>
+            <translation><!-- Renault --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rolls Royce</masterLabel>
+            <translation><!-- Rolls Royce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skoda</masterLabel>
+            <translation><!-- Skoda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tata</masterLabel>
+            <translation><!-- Tata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toyota</masterLabel>
+            <translation><!-- Toyota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volkswagen</masterLabel>
+            <translation><!-- Volkswagen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Car model --></label>
+        <name>Car_model__c</name>
+        <picklistValues>
+            <masterLabel>1-series</masterLabel>
+            <translation><!-- 1-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>190</masterLabel>
+            <translation><!-- 190 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-series</masterLabel>
+            <translation><!-- 2-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-series</masterLabel>
+            <translation><!-- 3-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>308</masterLabel>
+            <translation><!-- 308 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>360</masterLabel>
+            <translation><!-- 360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4-series</masterLabel>
+            <translation><!-- 4-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>456</masterLabel>
+            <translation><!-- 456 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4Runner</masterLabel>
+            <translation><!-- 4Runner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-series</masterLabel>
+            <translation><!-- 5-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>550</masterLabel>
+            <translation><!-- 550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-series</masterLabel>
+            <translation><!-- 6-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7-series</masterLabel>
+            <translation><!-- 7-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8-series</masterLabel>
+            <translation><!-- 8-series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>924</masterLabel>
+            <translation><!-- 924 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>928</masterLabel>
+            <translation><!-- 928 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>944</masterLabel>
+            <translation><!-- 944 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>959</masterLabel>
+            <translation><!-- 959 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>968</masterLabel>
+            <translation><!-- 968 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A-Class</masterLabel>
+            <translation><!-- A-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A1</masterLabel>
+            <translation><!-- A1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A2</masterLabel>
+            <translation><!-- A2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A3</masterLabel>
+            <translation><!-- A3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A4</masterLabel>
+            <translation><!-- A4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A4 Allroad</masterLabel>
+            <translation><!-- A4 Allroad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A5</masterLabel>
+            <translation><!-- A5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A5 Cabriolet</masterLabel>
+            <translation><!-- A5 Cabriolet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A6</masterLabel>
+            <translation><!-- A6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A6 Allroad</masterLabel>
+            <translation><!-- A6 Allroad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A7 Sportback</masterLabel>
+            <translation><!-- A7 Sportback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A8</masterLabel>
+            <translation><!-- A8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aarya Cabs</masterLabel>
+            <translation><!-- Aarya Cabs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accent</masterLabel>
+            <translation><!-- Accent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accord</masterLabel>
+            <translation><!-- Accord --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Actros</masterLabel>
+            <translation><!-- Actros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aerostar</masterLabel>
+            <translation><!-- Aerostar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alto 800</masterLabel>
+            <translation><!-- Alto 800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alto K10</masterLabel>
+            <translation><!-- Alto K10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amarok</masterLabel>
+            <translation><!-- Amarok --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amica</masterLabel>
+            <translation><!-- Amica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aria</masterLabel>
+            <translation><!-- Aria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arnage</masterLabel>
+            <translation><!-- Arnage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aspire</masterLabel>
+            <translation><!-- Aspire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atego</masterLabel>
+            <translation><!-- Atego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atos</masterLabel>
+            <translation><!-- Atos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aurion</masterLabel>
+            <translation><!-- Aurion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auris</masterLabel>
+            <translation><!-- Auris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avalon</masterLabel>
+            <translation><!-- Avalon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avantime</masterLabel>
+            <translation><!-- Avantime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avensis</masterLabel>
+            <translation><!-- Avensis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avensis Verso</masterLabel>
+            <translation><!-- Avensis Verso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aveo</masterLabel>
+            <translation><!-- Aveo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Axor</masterLabel>
+            <translation><!-- Axor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aygo</masterLabel>
+            <translation><!-- Aygo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azera</masterLabel>
+            <translation><!-- Azera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Azure</masterLabel>
+            <translation><!-- Azure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B-Class</masterLabel>
+            <translation><!-- B-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B-Max</masterLabel>
+            <translation><!-- B-Max --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ballade</masterLabel>
+            <translation><!-- Ballade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bantam</masterLabel>
+            <translation><!-- Bantam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beat</masterLabel>
+            <translation><!-- Beat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beetle</masterLabel>
+            <translation><!-- Beetle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolero</masterLabel>
+            <translation><!-- Bolero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bora</masterLabel>
+            <translation><!-- Bora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boxster</masterLabel>
+            <translation><!-- Boxster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brio</masterLabel>
+            <translation><!-- Brio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronco</masterLabel>
+            <translation><!-- Bronco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brooklands</masterLabel>
+            <translation><!-- Brooklands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-Class</masterLabel>
+            <translation><!-- C-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CL</masterLabel>
+            <translation><!-- CL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLC</masterLabel>
+            <translation><!-- CLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLK</masterLabel>
+            <translation><!-- CLK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLS</masterLabel>
+            <translation><!-- CLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR-V</masterLabel>
+            <translation><!-- CR-V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR-Z</masterLabel>
+            <translation><!-- CR-Z --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRX</masterLabel>
+            <translation><!-- CRX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cabriolet</masterLabel>
+            <translation><!-- Cabriolet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caddy</masterLabel>
+            <translation><!-- Caddy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California</masterLabel>
+            <translation><!-- California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camry</masterLabel>
+            <translation><!-- Camry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Captiva</masterLabel>
+            <translation><!-- Captiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Captur</masterLabel>
+            <translation><!-- Captur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caravelle</masterLabel>
+            <translation><!-- Caravelle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carina E</masterLabel>
+            <translation><!-- Carina E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carrera GT</masterLabel>
+            <translation><!-- Carrera GT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayenne</masterLabel>
+            <translation><!-- Cayenne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cayman</masterLabel>
+            <translation><!-- Cayman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Celerio</masterLabel>
+            <translation><!-- Celerio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Celica</masterLabel>
+            <translation><!-- Celica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ciaz</masterLabel>
+            <translation><!-- Ciaz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citan</masterLabel>
+            <translation><!-- Citan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citigo</masterLabel>
+            <translation><!-- Citigo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City</masterLabel>
+            <translation><!-- City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civic</masterLabel>
+            <translation><!-- Civic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clio</masterLabel>
+            <translation><!-- Clio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club Wagon</masterLabel>
+            <translation><!-- Club Wagon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coaster</masterLabel>
+            <translation><!-- Coaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combivan</masterLabel>
+            <translation><!-- Combivan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concerto</masterLabel>
+            <translation><!-- Concerto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental</masterLabel>
+            <translation><!-- Continental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental Flying Spur</masterLabel>
+            <translation><!-- Continental Flying Spur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental GT</masterLabel>
+            <translation><!-- Continental GT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental GTC</masterLabel>
+            <translation><!-- Continental GTC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contour</masterLabel>
+            <translation><!-- Contour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corniche</masterLabel>
+            <translation><!-- Corniche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corolla</masterLabel>
+            <translation><!-- Corolla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corolla SportsVan</masterLabel>
+            <translation><!-- Corolla SportsVan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corolla Verso</masterLabel>
+            <translation><!-- Corolla Verso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrado</masterLabel>
+            <translation><!-- Corrado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cougar</masterLabel>
+            <translation><!-- Cougar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coupe</masterLabel>
+            <translation><!-- Coupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Courier</masterLabel>
+            <translation><!-- Courier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crafter</masterLabel>
+            <translation><!-- Crafter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cressida</masterLabel>
+            <translation><!-- Cressida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrossPolo</masterLabel>
+            <translation><!-- CrossPolo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crown Victoria</masterLabel>
+            <translation><!-- Crown Victoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cruze</masterLabel>
+            <translation><!-- Cruze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defender</masterLabel>
+            <translation><!-- Defender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Del Sol</masterLabel>
+            <translation><!-- Del Sol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovery</masterLabel>
+            <translation><!-- Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drophead Coupe</masterLabel>
+            <translation><!-- Drophead Coupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duster</masterLabel>
+            <translation><!-- Duster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dyna</masterLabel>
+            <translation><!-- Dyna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-Class</masterLabel>
+            <translation><!-- E-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E20</masterLabel>
+            <translation><!-- E20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Easy Cabs</masterLabel>
+            <translation><!-- Easy Cabs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Echo</masterLabel>
+            <translation><!-- Echo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Econoline</masterLabel>
+            <translation><!-- Econoline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Econovan</masterLabel>
+            <translation><!-- Econovan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edge</masterLabel>
+            <translation><!-- Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eeco</masterLabel>
+            <translation><!-- Eeco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eight</masterLabel>
+            <translation><!-- Eight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elantra</masterLabel>
+            <translation><!-- Elantra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Element</masterLabel>
+            <translation><!-- Element --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entourage</masterLabel>
+            <translation><!-- Entourage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eon</masterLabel>
+            <translation><!-- Eon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eos</masterLabel>
+            <translation><!-- Eos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Epica</masterLabel>
+            <translation><!-- Epica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ertiga</masterLabel>
+            <translation><!-- Ertiga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escape</masterLabel>
+            <translation><!-- Escape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escort</masterLabel>
+            <translation><!-- Escort --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Espace</masterLabel>
+            <translation><!-- Espace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Etios</masterLabel>
+            <translation><!-- Etios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evalia</masterLabel>
+            <translation><!-- Evalia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evoque</masterLabel>
+            <translation><!-- Evoque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceed</masterLabel>
+            <translation><!-- Exceed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excel</masterLabel>
+            <translation><!-- Excel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excursion</masterLabel>
+            <translation><!-- Excursion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expedition</masterLabel>
+            <translation><!-- Expedition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Explorer</masterLabel>
+            <translation><!-- Explorer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Express</masterLabel>
+            <translation><!-- Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F150</masterLabel>
+            <translation><!-- F150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F250</masterLabel>
+            <translation><!-- F250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F350</masterLabel>
+            <translation><!-- F350 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F355</masterLabel>
+            <translation><!-- F355 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F450</masterLabel>
+            <translation><!-- F450 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F50</masterLabel>
+            <translation><!-- F50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F550</masterLabel>
+            <translation><!-- F550 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIT</masterLabel>
+            <translation><!-- FIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIT Aria</masterLabel>
+            <translation><!-- FIT Aria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FJ Cruiser</masterLabel>
+            <translation><!-- FJ Cruiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FR-V</masterLabel>
+            <translation><!-- FR-V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fabia</masterLabel>
+            <translation><!-- Fabia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairlane</masterLabel>
+            <translation><!-- Fairlane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fairmont</masterLabel>
+            <translation><!-- Fairmont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falcon</masterLabel>
+            <translation><!-- Falcon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Favorit</masterLabel>
+            <translation><!-- Favorit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Felicia</masterLabel>
+            <translation><!-- Felicia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festiva</masterLabel>
+            <translation><!-- Festiva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiesta</masterLabel>
+            <translation><!-- Fiesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Figo</masterLabel>
+            <translation><!-- Figo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Five Hundred</masterLabel>
+            <translation><!-- Five Hundred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flex</masterLabel>
+            <translation><!-- Flex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fluence</masterLabel>
+            <translation><!-- Fluence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Focus</masterLabel>
+            <translation><!-- Focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Focus C-MAX</masterLabel>
+            <translation><!-- Focus C-MAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>For She</masterLabel>
+            <translation><!-- For She --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fortuner</masterLabel>
+            <translation><!-- Fortuner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fox</masterLabel>
+            <translation><!-- Fox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freelander</masterLabel>
+            <translation><!-- Freelander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freestar</masterLabel>
+            <translation><!-- Freestar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freestyle</masterLabel>
+            <translation><!-- Freestyle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fusion</masterLabel>
+            <translation><!-- Fusion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>G-Class</masterLabel>
+            <translation><!-- G-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GL-Class</masterLabel>
+            <translation><!-- GL-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GLK-Class</masterLabel>
+            <translation><!-- GLK-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GT 86</masterLabel>
+            <translation><!-- GT 86 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Galaxy</masterLabel>
+            <translation><!-- Galaxy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genesis</masterLabel>
+            <translation><!-- Genesis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genesis Coupe</masterLabel>
+            <translation><!-- Genesis Coupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Getz</masterLabel>
+            <translation><!-- Getz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghost</masterLabel>
+            <translation><!-- Ghost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold Cabs</masterLabel>
+            <translation><!-- Gold Cabs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf</masterLabel>
+            <translation><!-- Golf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf Plus</masterLabel>
+            <translation><!-- Golf Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf Sportsvan</masterLabel>
+            <translation><!-- Golf Sportsvan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Granada</masterLabel>
+            <translation><!-- Granada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grand Scenic</masterLabel>
+            <translation><!-- Grand Scenic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grand Vitara</masterLabel>
+            <translation><!-- Grand Vitara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandeur</masterLabel>
+            <translation><!-- Grandeur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gypsy</masterLabel>
+            <translation><!-- Gypsy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H-1</masterLabel>
+            <translation><!-- H-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H100</masterLabel>
+            <translation><!-- H100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H200</masterLabel>
+            <translation><!-- H200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H300</masterLabel>
+            <translation><!-- H300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR-V</masterLabel>
+            <translation><!-- HR-V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harrier</masterLabel>
+            <translation><!-- Harrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi-Ace</masterLabel>
+            <translation><!-- Hi-Ace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi-Lux</masterLabel>
+            <translation><!-- Hi-Lux --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Highlander</masterLabel>
+            <translation><!-- Highlander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ</masterLabel>
+            <translation><!-- IQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ikon</masterLabel>
+            <translation><!-- Ikon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indica V2</masterLabel>
+            <translation><!-- Indica V2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indica eV2</masterLabel>
+            <translation><!-- Indica eV2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indigo eCS</masterLabel>
+            <translation><!-- Indigo eCS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innova</masterLabel>
+            <translation><!-- Innova --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight</masterLabel>
+            <translation><!-- Insight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integra</masterLabel>
+            <translation><!-- Integra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jazz</masterLabel>
+            <translation><!-- Jazz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jetta</masterLabel>
+            <translation><!-- Jetta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ka</masterLabel>
+            <translation><!-- Ka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kalos</masterLabel>
+            <translation><!-- Kalos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kangoo</masterLabel>
+            <translation><!-- Kangoo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kluger</masterLabel>
+            <translation><!-- Kluger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Koleos</masterLabel>
+            <translation><!-- Koleos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuga</masterLabel>
+            <translation><!-- Kuga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LT</masterLabel>
+            <translation><!-- LT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LTD</masterLabel>
+            <translation><!-- LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lacetti</masterLabel>
+            <translation><!-- Lacetti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laguna</masterLabel>
+            <translation><!-- Laguna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Land Cruiser</masterLabel>
+            <translation><!-- Land Cruiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lanos</masterLabel>
+            <translation><!-- Lanos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lantra</masterLabel>
+            <translation><!-- Lantra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latitude</masterLabel>
+            <translation><!-- Latitude --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legend</masterLabel>
+            <translation><!-- Legend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libero</masterLabel>
+            <translation><!-- Libero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lite Ace</masterLabel>
+            <translation><!-- Lite Ace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logo</masterLabel>
+            <translation><!-- Logo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lupo</masterLabel>
+            <translation><!-- Lupo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M-Class</masterLabel>
+            <translation><!-- M-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDX</masterLabel>
+            <translation><!-- MDX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MR-V</masterLabel>
+            <translation><!-- MR-V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MR2</masterLabel>
+            <translation><!-- MR2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magnum</masterLabel>
+            <translation><!-- Magnum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manza</masterLabel>
+            <translation><!-- Manza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master</masterLabel>
+            <translation><!-- Master --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matiz</masterLabel>
+            <translation><!-- Matiz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matrix</masterLabel>
+            <translation><!-- Matrix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maverick</masterLabel>
+            <translation><!-- Maverick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mega Cabs</masterLabel>
+            <translation><!-- Mega Cabs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Megane</masterLabel>
+            <translation><!-- Megane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meru</masterLabel>
+            <translation><!-- Meru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modus</masterLabel>
+            <translation><!-- Modus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mondeo</masterLabel>
+            <translation><!-- Mondeo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Movus</masterLabel>
+            <translation><!-- Movus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mulsanne</masterLabel>
+            <translation><!-- Mulsanne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multivan</masterLabel>
+            <translation><!-- Multivan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mustang</masterLabel>
+            <translation><!-- Mustang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSX</masterLabel>
+            <translation><!-- NSX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV400</masterLabel>
+            <translation><!-- NV400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nano</masterLabel>
+            <translation><!-- Nano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nubira</masterLabel>
+            <translation><!-- Nubira --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Octavia</masterLabel>
+            <translation><!-- Octavia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odyssey</masterLabel>
+            <translation><!-- Odyssey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omni</masterLabel>
+            <translation><!-- Omni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optimo</masterLabel>
+            <translation><!-- Optimo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optra</masterLabel>
+            <translation><!-- Optra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orion</masterLabel>
+            <translation><!-- Orion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paseo</masterLabel>
+            <translation><!-- Paseo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passat</masterLabel>
+            <translation><!-- Passat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passat CC</masterLabel>
+            <translation><!-- Passat CC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation><!-- Passport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phaeton</masterLabel>
+            <translation><!-- Phaeton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phantom</masterLabel>
+            <translation><!-- Phantom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phantom Coupe</masterLabel>
+            <translation><!-- Phantom Coupe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pickup</masterLabel>
+            <translation><!-- Pickup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picnic</masterLabel>
+            <translation><!-- Picnic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot</masterLabel>
+            <translation><!-- Pilot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polo</masterLabel>
+            <translation><!-- Polo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prelude</masterLabel>
+            <translation><!-- Prelude --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium truck</masterLabel>
+            <translation><!-- Premium truck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Previa</masterLabel>
+            <translation><!-- Previa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prius</masterLabel>
+            <translation><!-- Prius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Priyadarshini</masterLabel>
+            <translation><!-- Priyadarshini --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proace</masterLabel>
+            <translation><!-- Proace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Probe</masterLabel>
+            <translation><!-- Probe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puma</masterLabel>
+            <translation><!-- Puma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3</masterLabel>
+            <translation><!-- Q3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q5</masterLabel>
+            <translation><!-- Q5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q7</masterLabel>
+            <translation><!-- Q7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quanto</masterLabel>
+            <translation><!-- Quanto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R-Class</masterLabel>
+            <translation><!-- R-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R8</masterLabel>
+            <translation><!-- R8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAV-4</masterLabel>
+            <translation><!-- RAV-4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RX4</masterLabel>
+            <translation><!-- RX4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation><!-- Rabbit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Range rover</masterLabel>
+            <translation><!-- Range rover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Range rover Sport</masterLabel>
+            <translation><!-- Range rover Sport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ranger</masterLabel>
+            <translation><!-- Ranger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rapid</masterLabel>
+            <translation><!-- Rapid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ridgeline</masterLabel>
+            <translation><!-- Ridgeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ritz</masterLabel>
+            <translation><!-- Ritz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roomster</masterLabel>
+            <translation><!-- Roomster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Routan</masterLabel>
+            <translation><!-- Routan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-Class</masterLabel>
+            <translation><!-- S-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-MAX</masterLabel>
+            <translation><!-- S-MAX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-Type</masterLabel>
+            <translation><!-- S-Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S2000</masterLabel>
+            <translation><!-- S2000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SL</masterLabel>
+            <translation><!-- SL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLK</masterLabel>
+            <translation><!-- SLK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLS</masterLabel>
+            <translation><!-- SLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SX4</masterLabel>
+            <translation><!-- SX4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safari</masterLabel>
+            <translation><!-- Safari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safari Storme</masterLabel>
+            <translation><!-- Safari Storme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safrane</masterLabel>
+            <translation><!-- Safrane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santa Fe</masterLabel>
+            <translation><!-- Santa Fe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Santamo</masterLabel>
+            <translation><!-- Santamo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satellite</masterLabel>
+            <translation><!-- Satellite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scenic</masterLabel>
+            <translation><!-- Scenic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scirocco</masterLabel>
+            <translation><!-- Scirocco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scorpio</masterLabel>
+            <translation><!-- Scorpio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sequoia</masterLabel>
+            <translation><!-- Sequoia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sharan</masterLabel>
+            <translation><!-- Sharan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shuttle</masterLabel>
+            <translation><!-- Shuttle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sienna</masterLabel>
+            <translation><!-- Sienna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra</masterLabel>
+            <translation><!-- Sierra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solara</masterLabel>
+            <translation><!-- Solara --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solaris</masterLabel>
+            <translation><!-- Solaris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonata</masterLabel>
+            <translation><!-- Sonata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonic</masterLabel>
+            <translation><!-- Sonic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spark</masterLabel>
+            <translation><!-- Spark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SportsVan</masterLabel>
+            <translation><!-- SportsVan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprinter</masterLabel>
+            <translation><!-- Sprinter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Star Taxi</masterLabel>
+            <translation><!-- Star Taxi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starex</masterLabel>
+            <translation><!-- Starex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starlet</masterLabel>
+            <translation><!-- Starlet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stingray</masterLabel>
+            <translation><!-- Stingray --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stream</masterLabel>
+            <translation><!-- Stream --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sumo Gold</masterLabel>
+            <translation><!-- Sumo Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SuperB</masterLabel>
+            <translation><!-- SuperB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supra</masterLabel>
+            <translation><!-- Supra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swift</masterLabel>
+            <translation><!-- Swift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swift DZire</masterLabel>
+            <translation><!-- Swift DZire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TT</masterLabel>
+            <translation><!-- TT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tab Cab</masterLabel>
+            <translation><!-- Tab Cab --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tacoma</masterLabel>
+            <translation><!-- Tacoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tacuma</masterLabel>
+            <translation><!-- Tacuma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarago</masterLabel>
+            <translation><!-- Tarago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taro</masterLabel>
+            <translation><!-- Taro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taurus</masterLabel>
+            <translation><!-- Taurus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taurus X</masterLabel>
+            <translation><!-- Taurus X --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tempo</masterLabel>
+            <translation><!-- Tempo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tercel</masterLabel>
+            <translation><!-- Tercel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terracan</masterLabel>
+            <translation><!-- Terracan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Territory</masterLabel>
+            <translation><!-- Territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testarossa</masterLabel>
+            <translation><!-- Testarossa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thar</masterLabel>
+            <translation><!-- Thar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thunderbird</masterLabel>
+            <translation><!-- Thunderbird --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiguan</masterLabel>
+            <translation><!-- Tiguan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Touareg</masterLabel>
+            <translation><!-- Touareg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Touran</masterLabel>
+            <translation><!-- Touran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trafic</masterLabel>
+            <translation><!-- Trafic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trajet</masterLabel>
+            <translation><!-- Trajet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit</masterLabel>
+            <translation><!-- Transit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit Connect</masterLabel>
+            <translation><!-- Transit Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit Custom</masterLabel>
+            <translation><!-- Transit Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit Tourneo Connect</masterLabel>
+            <translation><!-- Transit Tourneo Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transporter</masterLabel>
+            <translation><!-- Transporter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tucson</masterLabel>
+            <translation><!-- Tucson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tundra</masterLabel>
+            <translation><!-- Tundra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turbo</masterLabel>
+            <translation><!-- Turbo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twingo</masterLabel>
+            <translation><!-- Twingo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twizy</masterLabel>
+            <translation><!-- Twizy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Up</masterLabel>
+            <translation><!-- Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urban Cruiser</masterLabel>
+            <translation><!-- Urban Cruiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ute</masterLabel>
+            <translation><!-- Ute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V-Class</masterLabel>
+            <translation><!-- V-Class --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Van</masterLabel>
+            <translation><!-- Van --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vaneo</masterLabel>
+            <translation><!-- Vaneo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vario</masterLabel>
+            <translation><!-- Vario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varito</masterLabel>
+            <translation><!-- Varito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varito Vibe CS</masterLabel>
+            <translation><!-- Varito Vibe CS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vel Satis</masterLabel>
+            <translation><!-- Vel Satis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veloster</masterLabel>
+            <translation><!-- Veloster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vento</masterLabel>
+            <translation><!-- Vento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venture</masterLabel>
+            <translation><!-- Venture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venza</masterLabel>
+            <translation><!-- Venza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veracruz</masterLabel>
+            <translation><!-- Veracruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verna</masterLabel>
+            <translation><!-- Verna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verso</masterLabel>
+            <translation><!-- Verso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verso-S</masterLabel>
+            <translation><!-- Verso-S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viano</masterLabel>
+            <translation><!-- Viano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vista Tech</masterLabel>
+            <translation><!-- Vista Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vito</masterLabel>
+            <translation><!-- Vito --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wagon R 1.0</masterLabel>
+            <translation><!-- Wagon R 1.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wind Roadster</masterLabel>
+            <translation><!-- Wind Roadster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Windstar</masterLabel>
+            <translation><!-- Windstar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winger</masterLabel>
+            <translation><!-- Winger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X-Type</masterLabel>
+            <translation><!-- X-Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X1</masterLabel>
+            <translation><!-- X1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X3</masterLabel>
+            <translation><!-- X3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X5</masterLabel>
+            <translation><!-- X5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>X6</masterLabel>
+            <translation><!-- X6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XF</masterLabel>
+            <translation><!-- XF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XG</masterLabel>
+            <translation><!-- XG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XG 30</masterLabel>
+            <translation><!-- XG 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XJ</masterLabel>
+            <translation><!-- XJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XJ12</masterLabel>
+            <translation><!-- XJ12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XJ6</masterLabel>
+            <translation><!-- XJ6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XJ8</masterLabel>
+            <translation><!-- XJ8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XJR</masterLabel>
+            <translation><!-- XJR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XJS</masterLabel>
+            <translation><!-- XJS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XK</masterLabel>
+            <translation><!-- XK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XK8</masterLabel>
+            <translation><!-- XK8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XKR</masterLabel>
+            <translation><!-- XKR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>XUV500</masterLabel>
+            <translation><!-- XUV500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xenon XT</masterLabel>
+            <translation><!-- Xenon XT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xylo</masterLabel>
+            <translation><!-- Xylo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yaris</masterLabel>
+            <translation><!-- Yaris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yeti</masterLabel>
+            <translation><!-- Yeti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z3</masterLabel>
+            <translation><!-- Z3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z4</masterLabel>
+            <translation><!-- Z4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z8</masterLabel>
+            <translation><!-- Z8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zest</masterLabel>
+            <translation><!-- Zest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>i10</masterLabel>
+            <translation><!-- i10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>i20</masterLabel>
+            <translation><!-- i20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>i25</masterLabel>
+            <translation><!-- i25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>i30</masterLabel>
+            <translation><!-- i30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>i40</masterLabel>
+            <translation><!-- i40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>i45</masterLabel>
+            <translation><!-- i45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>i800</masterLabel>
+            <translation><!-- i800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iLoad</masterLabel>
+            <translation><!-- iLoad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iMax</masterLabel>
+            <translation><!-- iMax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ix20</masterLabel>
+            <translation><!-- ix20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ix35</masterLabel>
+            <translation><!-- ix35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ix55</masterLabel>
+            <translation><!-- ix55 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Charity Donors --></label>
+        <name>Charity_Donors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residence City --></label>
+        <name>City__c</name>
+        <picklistValues>
+            <masterLabel>Ahmedabad</masterLabel>
+            <translation><!-- Ahmedabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amritsar</masterLabel>
+            <translation><!-- Amritsar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangalore</masterLabel>
+            <translation><!-- Bangalore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chandigarh</masterLabel>
+            <translation><!-- Chandigarh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chennai</masterLabel>
+            <translation><!-- Chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dehradun</masterLabel>
+            <translation><!-- Dehradun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faridabad</masterLabel>
+            <translation><!-- Faridabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghaziabad</masterLabel>
+            <translation><!-- Ghaziabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurgaon</masterLabel>
+            <translation><!-- Gurgaon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyderabad</masterLabel>
+            <translation><!-- Hyderabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaipur</masterLabel>
+            <translation><!-- Jaipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jodhpur</masterLabel>
+            <translation><!-- Jodhpur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kolkatta</masterLabel>
+            <translation><!-- Kolkatta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucknow</masterLabel>
+            <translation><!-- Lucknow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ludhiana</masterLabel>
+            <translation><!-- Ludhiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mumbai</masterLabel>
+            <translation><!-- Mumbai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mysore</masterLabel>
+            <translation><!-- Mysore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noida</masterLabel>
+            <translation><!-- Noida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patiala</masterLabel>
+            <translation><!-- Patiala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pune</masterLabel>
+            <translation><!-- Pune --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Srinagar</masterLabel>
+            <translation><!-- Srinagar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Udaipur</masterLabel>
+            <translation><!-- Udaipur --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Club memberships --></label>
+        <name>Club_memberships__c</name>
+        <picklistValues>
+            <masterLabel>Aralias</masterLabel>
+            <translation><!-- Aralias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chelmsford Club</masterLabel>
+            <translation><!-- Chelmsford Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classic Golf Resort (ITC-owned)</masterLabel>
+            <translation><!-- Classic Golf Resort (ITC-owned) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DLF City Club</masterLabel>
+            <translation><!-- DLF City Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DLF Golf &amp; Country Club</masterLabel>
+            <translation><!-- DLF Golf &amp; Country Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defence Colony Club</masterLabel>
+            <translation><!-- Defence Colony Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi Golf Club</masterLabel>
+            <translation><!-- Delhi Golf Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friends Club</masterLabel>
+            <translation><!-- Friends Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Greens</masterLabel>
+            <translation><!-- Golden Greens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gymkhana Club</masterLabel>
+            <translation><!-- Gymkhana Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India Habitat Centre</masterLabel>
+            <translation><!-- India Habitat Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India Interational Centre</masterLabel>
+            <translation><!-- India Interational Centre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jahanpanah Club</masterLabel>
+            <translation><!-- Jahanpanah Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaypee Greens</masterLabel>
+            <translation><!-- Jaypee Greens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magnolias</masterLabel>
+            <translation><!-- Magnolias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Panchsheel Club</masterLabel>
+            <translation><!-- Panchsheel Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Punjabi Bagh Club</masterLabel>
+            <translation><!-- Punjabi Bagh Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports and Cultural Club</masterLabel>
+            <translation><!-- Sports and Cultural Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Palms - Town &amp; Country Club</masterLabel>
+            <translation><!-- The Palms - Town &amp; Country Club --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company Address --></label>
+        <name>Company_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Email --></label>
+        <name>Company_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company city --></label>
+        <name>Company_city__c</name>
+        <picklistValues>
+            <masterLabel>Ahmedabad</masterLabel>
+            <translation><!-- Ahmedabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amritsar</masterLabel>
+            <translation><!-- Amritsar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bangalore</masterLabel>
+            <translation><!-- Bangalore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chandigarh</masterLabel>
+            <translation><!-- Chandigarh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chennai</masterLabel>
+            <translation><!-- Chennai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi</masterLabel>
+            <translation><!-- Delhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faridabad</masterLabel>
+            <translation><!-- Faridabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghaziabad</masterLabel>
+            <translation><!-- Ghaziabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurgaon</masterLabel>
+            <translation><!-- Gurgaon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyderabad</masterLabel>
+            <translation><!-- Hyderabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaipur</masterLabel>
+            <translation><!-- Jaipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kolkata</masterLabel>
+            <translation><!-- Kolkata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucknow</masterLabel>
+            <translation><!-- Lucknow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ludhiana</masterLabel>
+            <translation><!-- Ludhiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mumbai</masterLabel>
+            <translation><!-- Mumbai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patiala</masterLabel>
+            <translation><!-- Patiala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pune</masterLabel>
+            <translation><!-- Pune --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Udaipur</masterLabel>
+            <translation><!-- Udaipur --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company country --></label>
+        <name>Company_country__c</name>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company pincode --></label>
+        <name>Company_pincode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Jeweler --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Bosco</masterLabel>
+            <translation><!-- Bosco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PC jewelers</masterLabel>
+            <translation><!-- PC jewelers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RR</masterLabel>
+            <translation><!-- RR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Source --></label>
+        <name>ContactSrc__c</name>
+        <picklistValues>
+            <masterLabel>Ambika Jain</masterLabel>
+            <translation><!-- Ambika Jain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ami Modi</masterLabel>
+            <translation><!-- Ami Modi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anuj Rakyan</masterLabel>
+            <translation><!-- Anuj Rakyan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aparajita Jain</masterLabel>
+            <translation><!-- Aparajita Jain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aparna Chudasama</masterLabel>
+            <translation><!-- Aparna Chudasama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arundhati De</masterLabel>
+            <translation><!-- Arundhati De --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ashi Burman</masterLabel>
+            <translation><!-- Ashi Burman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chhaya Momaya</masterLabel>
+            <translation><!-- Chhaya Momaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi Member List</masterLabel>
+            <translation><!-- Delhi Member List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EO</masterLabel>
+            <translation><!-- EO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madhu Gupta</masterLabel>
+            <translation><!-- Madhu Gupta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nirav Modi</masterLabel>
+            <translation><!-- Nirav Modi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pragna Modi</masterLabel>
+            <translation><!-- Pragna Modi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ritu Chhabria</masterLabel>
+            <translation><!-- Ritu Chhabria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soni Aggarwal</masterLabel>
+            <translation><!-- Soni Aggarwal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunaina Vahi</masterLabel>
+            <translation><!-- Sunaina Vahi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WPO</masterLabel>
+            <translation><!-- WPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YPO</masterLabel>
+            <translation><!-- YPO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact_ExternalID --></label>
+        <name>Contact_ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Full Name --></label>
+        <name>Contact_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Countries visited --></label>
+        <name>Countries_visited__c</name>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bhutan</masterLabel>
+            <translation><!-- Bhutan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dubai</masterLabel>
+            <translation><!-- Dubai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt</masterLabel>
+            <translation><!-- Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greece</masterLabel>
+            <translation><!-- Greece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hong Kong</masterLabel>
+            <translation><!-- Hong Kong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungary</masterLabel>
+            <translation><!-- Hungary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kuwait</masterLabel>
+            <translation><!-- Kuwait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malaysia</masterLabel>
+            <translation><!-- Malaysia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maldives</masterLabel>
+            <translation><!-- Maldives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mauritius</masterLabel>
+            <translation><!-- Mauritius --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nepal</masterLabel>
+            <translation><!-- Nepal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Zealand</masterLabel>
+            <translation><!-- New Zealand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saudi Arabia</masterLabel>
+            <translation><!-- Saudi Arabia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thailand</masterLabel>
+            <translation><!-- Thailand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United Kingdom</masterLabel>
+            <translation><!-- United Kingdom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>United States</masterLabel>
+            <translation><!-- United States --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Residence Country --></label>
+        <name>Country__c</name>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diwali --></label>
+        <name>Diwali__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Office --></label>
+        <name>Email_Office__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email alternate, if any --></label>
+        <name>Email_alternate_if_any__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Type --></label>
+        <name>Engagement_Types__c</name>
+        <picklistValues>
+            <masterLabel>Anniversary</masterLabel>
+            <translation><!-- Anniversary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birthday</masterLabel>
+            <translation><!-- Birthday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diwali</masterLabel>
+            <translation><!-- Diwali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusive</masterLabel>
+            <translation><!-- Exclusive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibition</masterLabel>
+            <translation><!-- Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Year</masterLabel>
+            <translation><!-- New Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fax Residence --></label>
+        <name>Fax_Residence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Food/Drink (Dislikes) --></label>
+        <name>Food_Drink_Dislikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Food/Drink (Likes) --></label>
+        <name>Food_Drink_Likes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Graduation College Name --></label>
+        <name>Graduation_College_Name__c</name>
+        <picklistValues>
+            <masterLabel>IIM</masterLabel>
+            <translation><!-- IIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IIT</masterLabel>
+            <translation><!-- IIT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Graduation Location --></label>
+        <name>Graduation_Location__c</name>
+        <picklistValues>
+            <masterLabel>Delhi</masterLabel>
+            <translation><!-- Delhi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hand bag, if any --></label>
+        <name>Hand_bag_if_any__c</name>
+        <picklistValues>
+            <masterLabel>Armani</masterLabel>
+            <translation><!-- Armani --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottega Veneta</masterLabel>
+            <translation><!-- Bottega Veneta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DKNY</masterLabel>
+            <translation><!-- DKNY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Da Milano</masterLabel>
+            <translation><!-- Da Milano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fendi</masterLabel>
+            <translation><!-- Fendi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gucci</masterLabel>
+            <translation><!-- Gucci --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guess</masterLabel>
+            <translation><!-- Guess --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hermes</masterLabel>
+            <translation><!-- Hermes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LVMH</masterLabel>
+            <translation><!-- LVMH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Brand</masterLabel>
+            <translation><!-- Local Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Longchamp</masterLabel>
+            <translation><!-- Longchamp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Kors</masterLabel>
+            <translation><!-- Michael Kors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prada</masterLabel>
+            <translation><!-- Prada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salvatore Ferragamo</masterLabel>
+            <translation><!-- Salvatore Ferragamo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stella McCartney</masterLabel>
+            <translation><!-- Stella McCartney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versace</masterLabel>
+            <translation><!-- Versace --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Image Link --></label>
+        <name>Image_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image URL --></label>
+        <name>Image_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Indicative age --></label>
+        <name>Indicative_age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation><!-- Apparel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation><!-- Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation><!-- Biotechnology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation><!-- Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation><!-- Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation><!-- Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation><!-- Food &amp; Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation><!-- Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation><!-- Hospitality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation><!-- Machinery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation><!-- Not For Profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation><!-- Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation><!-- Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation><!-- Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Emails</masterLabel>
+            <translation><!-- Emails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NMJ Events</masterLabel>
+            <translation><!-- NMJ Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NMJ Exhibition</masterLabel>
+            <translation><!-- NMJ Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Contact</masterLabel>
+            <translation><!-- Personal Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Calls</masterLabel>
+            <translation><!-- Phone Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk-in</masterLabel>
+            <translation><!-- Walk-in --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Luxury brands (Dislikes) --></label>
+        <name>Luxury_brands_Dislikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Luxury brands (Likes) --></label>
+        <name>Luxury_brands_Likes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Magazines read --></label>
+        <name>Magazines_read__c</name>
+        <picklistValues>
+            <masterLabel>Cosmopolitan</masterLabel>
+            <translation><!-- Cosmopolitan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elle</masterLabel>
+            <translation><!-- Elle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harper&apos;s Bazaar</masterLabel>
+            <translation><!-- Harper&apos;s Bazaar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health care</masterLabel>
+            <translation><!-- Health care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marie Clarie</masterLabel>
+            <translation><!-- Marie Clarie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Woman</masterLabel>
+            <translation><!-- New Woman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sportstar</masterLabel>
+            <translation><!-- Sportstar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verve</masterLabel>
+            <translation><!-- Verve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vogue</masterLabel>
+            <translation><!-- Vogue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women&apos;s Era</masterLabel>
+            <translation><!-- Women&apos;s Era --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Marital Status --></label>
+        <name>Marital_Status__c</name>
+        <picklistValues>
+            <masterLabel>Divorcee/Separated</masterLabel>
+            <translation><!-- Divorcee/Separated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Married</masterLabel>
+            <translation><!-- Married --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single/Unmarried</masterLabel>
+            <translation><!-- Single/Unmarried --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Meal Preferences --></label>
+        <name>Meal_Preferences__c</name>
+    </fields>
+    <fields>
+        <label><!-- Middle name --></label>
+        <name>Middle_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Alternate --></label>
+        <name>Mobile_Alternate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source details --></label>
+        <name>More_details_on_source__c</name>
+        <picklistValues>
+            <masterLabel>Airport Screens</masterLabel>
+            <translation><!-- Airport Screens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinema Ads</masterLabel>
+            <translation><!-- Cinema Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event - In store</masterLabel>
+            <translation><!-- Event - In store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event-External</masterLabel>
+            <translation><!-- Event-External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibition</masterLabel>
+            <translation><!-- Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoarding</masterLabel>
+            <translation><!-- Hoarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine Ads</masterLabel>
+            <translation><!-- Magazine Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine Article/Shoot</masterLabel>
+            <translation><!-- Magazine Article/Shoot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper Ad</masterLabel>
+            <translation><!-- Newspaper Ad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper Article</masterLabel>
+            <translation><!-- Newspaper Article --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product placement</masterLabel>
+            <translation><!-- Product placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference- External</masterLabel>
+            <translation><!-- Reference- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference- Internal</masterLabel>
+            <translation><!-- Reference- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store visibility led football</masterLabel>
+            <translation><!-- Store visibility led football --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV Ads</masterLabel>
+            <translation><!-- TV Ads --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- More details/source --></label>
+        <name>More_details_source__c</name>
+        <picklistValues>
+            <masterLabel>Airport screens</masterLabel>
+            <translation><!-- Airport screens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinema ads</masterLabel>
+            <translation><!-- Cinema ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event - External</masterLabel>
+            <translation><!-- Event - External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event - In Store</masterLabel>
+            <translation><!-- Event - In Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibition</masterLabel>
+            <translation><!-- Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoarding</masterLabel>
+            <translation><!-- Hoarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine Article / Shoot / Product placement</masterLabel>
+            <translation><!-- Magazine Article / Shoot / Product placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper Article</masterLabel>
+            <translation><!-- Newspaper Article --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference - External</masterLabel>
+            <translation><!-- Reference - External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference - Internal</masterLabel>
+            <translation><!-- Reference - Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Visibility led footfall</masterLabel>
+            <translation><!-- Store Visibility led footfall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Music (Dislikes) --></label>
+        <name>Music_Dislikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Music (Likes) --></label>
+        <name>Music_likes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name of the Company --></label>
+        <name>Name_of_the_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nature of business --></label>
+        <name>Nature_of_business__c</name>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment  Leisure</masterLabel>
+            <translation><!-- Entertainment  Leisure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entrepreneur</masterLabel>
+            <translation><!-- Entrepreneur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Search</masterLabel>
+            <translation><!-- Executive Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FMCG</masterLabel>
+            <translation><!-- FMCG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Search</masterLabel>
+            <translation><!-- Financial Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food, Beverages &amp; Tobacco</masterLabel>
+            <translation><!-- Food, Beverages &amp; Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grocery</masterLabel>
+            <translation><!-- Grocery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care</masterLabel>
+            <translation><!-- Health Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT services</masterLabel>
+            <translation><!-- IT services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment Banking</masterLabel>
+            <translation><!-- Investment Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxury Goods</masterLabel>
+            <translation><!-- Luxury Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motion Picture &amp; Vedio</masterLabel>
+            <translation><!-- Motion Picture &amp; Vedio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Music</masterLabel>
+            <translation><!-- Music --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper Publisher</masterLabel>
+            <translation><!-- Newspaper Publisher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Auctions</masterLabel>
+            <translation><!-- Online Auctions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pension funds</masterLabel>
+            <translation><!-- Pension funds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmaceuticals</masterLabel>
+            <translation><!-- Pharmaceuticals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Equity</masterLabel>
+            <translation><!-- Private Equity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publishing</masterLabel>
+            <translation><!-- Publishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail &amp; wholesale</masterLabel>
+            <translation><!-- Retail &amp; wholesale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities and Commodity Exchange</masterLabel>
+            <translation><!-- Securities and Commodity Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Networth --></label>
+        <name>Networth__c</name>
+        <picklistValues>
+            <masterLabel>100 Crores to 200 Crores</masterLabel>
+            <translation><!-- 100 Crores to 200 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200 Crores to 300 Crores</masterLabel>
+            <translation><!-- 200 Crores to 300 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300 Crores to 400 Crores</masterLabel>
+            <translation><!-- 300 Crores to 400 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400 Crores to 500 Crores</masterLabel>
+            <translation><!-- 400 Crores to 500 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Crores to 100 Crores</masterLabel>
+            <translation><!-- 50 Crores to 100 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than 500 Crores</masterLabel>
+            <translation><!-- More than 500 Crores --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Year --></label>
+        <name>New_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Anniversary Date1 --></label>
+        <name>Next_Anniversary_Date1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Anniversary Date --></label>
+        <name>Next_Anniversary_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Birthday --></label>
+        <name>Next_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non Sales Event --></label>
+        <name>Non_Sales_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other (Dislikes) --></label>
+        <name>Other_Dislikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other (Likes) --></label>
+        <name>Other_Likes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Magazines --></label>
+        <name>Other_Magazines__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Passion --></label>
+        <name>Other_Passion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify name of other Contact source --></help>
+        <label><!-- Other Source --></label>
+        <name>Other_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other city, if any --></label>
+        <name>Other_city_if_any__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other remarks about source --></label>
+        <name>Other_remarks_about_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Passions --></label>
+        <name>Passions__c</name>
+        <picklistValues>
+            <masterLabel>Reading Books</masterLabel>
+            <translation><!-- Reading Books --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Personal Email --></label>
+        <name>Personal_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Interests: --></label>
+        <name>Personal_Interests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personality description --></label>
+        <name>Personality_description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residence Pincode --></label>
+        <name>Pincode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+        <picklistValues>
+            <masterLabel>CEO</masterLabel>
+            <translation><!-- CEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFO</masterLabel>
+            <translation><!-- CFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chairman</masterLabel>
+            <translation><!-- Chairman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director</masterLabel>
+            <translation><!-- Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation><!-- President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VP</masterLabel>
+            <translation><!-- VP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Post Graduation Location --></label>
+        <name>Post_Graduation_Location__c</name>
+        <picklistValues>
+            <masterLabel>Delhi</masterLabel>
+            <translation><!-- Delhi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Post Graduation college name --></label>
+        <name>Post_Graduation_college_name__c</name>
+        <picklistValues>
+            <masterLabel>IIM</masterLabel>
+            <translation><!-- IIM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- These flags will indicate if client is potential or non potential. --></help>
+        <label><!-- Potential/Non Potential --></label>
+        <name>Potential_Non_Potential__c</name>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation><!-- Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NP</masterLabel>
+            <translation><!-- NP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Previous Jewelers --></label>
+        <name>Previous_Jewelers__c</name>
+        <picklistValues>
+            <masterLabel>Josco</masterLabel>
+            <translation><!-- Josco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malbar</masterLabel>
+            <translation><!-- Malbar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Profession --></label>
+        <name>Profession__c</name>
+        <picklistValues>
+            <masterLabel>Doctor</masterLabel>
+            <translation><!-- Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entrepreneur</masterLabel>
+            <translation><!-- Entrepreneur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Housewife</masterLabel>
+            <translation><!-- Housewife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lawyer</masterLabel>
+            <translation><!-- Lawyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Profile ExternalID --></label>
+        <name>Profile_ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Name --></label>
+        <name>Profile_Name__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Known: Profiles with little information and there ar eno interactions created for it
+Relevant: Profiles with much information but there is no intercation created for it
+Interacted: Profiles for which interaction is created --></help>
+        <label><!-- Profile Status --></label>
+        <name>Profile_Status__c</name>
+        <picklistValues>
+            <masterLabel>Interacted</masterLabel>
+            <translation><!-- Interacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Known</masterLabel>
+            <translation><!-- Known --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relevant</masterLabel>
+            <translation><!-- Relevant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recreational (Dislikes) --></label>
+        <name>Recreational_Dislikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recreational (Likes) --></label>
+        <name>Recreational_Likes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remarks on source --></label>
+        <name>Remarks_on_source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reset Aniversary Email --></label>
+        <name>Reset_Aniversary_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reset Birthday Email System --></label>
+        <name>Reset_Birthday_Email_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reset Next Birthday --></label>
+        <name>Reset_Next_Birthday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residence Address 1 --></label>
+        <name>Residence_Address_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residence Address 2 --></label>
+        <name>Residence_Address_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residence Address 3 --></label>
+        <name>Residence_Address_3__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will override the default Account Name Search for the Redkite News component. Please enter a search term for the news articles that you would like to see for this Account. --></help>
+        <label><!-- News Search Override --></label>
+        <name>Rknews__News_Search_Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role of Contact --></label>
+        <name>Role_of_Contact__c</name>
+        <picklistValues>
+            <masterLabel>Brother</masterLabel>
+            <translation><!-- Brother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brother-In-Law</masterLabel>
+            <translation><!-- Brother-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daughter</masterLabel>
+            <translation><!-- Daughter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daughter-in-law</masterLabel>
+            <translation><!-- Daughter-in-law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ex-Husband</masterLabel>
+            <translation><!-- Ex-Husband --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ex-Wife</masterLabel>
+            <translation><!-- Ex-Wife --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Father</masterLabel>
+            <translation><!-- Father --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Father-In-Law</masterLabel>
+            <translation><!-- Father-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandchildren</masterLabel>
+            <translation><!-- Grandchildren --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Head</masterLabel>
+            <translation><!-- Head --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Husband</masterLabel>
+            <translation><!-- Husband --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maternal Cousin</masterLabel>
+            <translation><!-- Maternal Cousin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother</masterLabel>
+            <translation><!-- Mother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother-In-Law</masterLabel>
+            <translation><!-- Mother-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paternal cousin</masterLabel>
+            <translation><!-- Paternal cousin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sister</masterLabel>
+            <translation><!-- Sister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sister-In-Law</masterLabel>
+            <translation><!-- Sister-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Son</masterLabel>
+            <translation><!-- Son --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Son-in-law</masterLabel>
+            <translation><!-- Son-in-law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wife</masterLabel>
+            <translation><!-- Wife --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Event --></label>
+        <name>Sales_Event__c</name>
+        <picklistValues>
+            <masterLabel>Exclusive</masterLabel>
+            <translation><!-- Exclusive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibition</masterLabel>
+            <translation><!-- Exhibition --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- School Name and Location --></label>
+        <name>School_Name_Location__c</name>
+        <picklistValues>
+            <masterLabel>Delhi Public School, Bangalore</masterLabel>
+            <translation><!-- Delhi Public School, Bangalore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi Public School, Delhi</masterLabel>
+            <translation><!-- Delhi Public School, Delhi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- School --></label>
+        <name>School__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add Secretary&apos;s Name, Phone no., Email ID...and other details --></help>
+        <label><!-- Secretary 2 --></label>
+        <name>Secretary_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add Secretary&apos;s Name, Phone no., Email ID...and other details --></help>
+        <label><!-- Secretary 3 --></label>
+        <name>Secretary_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secretary Email --></label>
+        <name>Secretary_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secretary Name --></label>
+        <name>Secretary_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secretary Phone --></label>
+        <name>Secretary_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add Secretary&apos;s Name, Phone no., Email ID...and other details --></help>
+        <label><!-- Secretary --></label>
+        <name>Secretary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Airport Screens</masterLabel>
+            <translation><!-- Airport Screens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cinema ads</masterLabel>
+            <translation><!-- Cinema ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event - External</masterLabel>
+            <translation><!-- Event - External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event - In Store</masterLabel>
+            <translation><!-- Event - In Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibition</masterLabel>
+            <translation><!-- Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hoarding</masterLabel>
+            <translation><!-- Hoarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magazine Ads</masterLabel>
+            <translation><!-- Magazine Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper Article</masterLabel>
+            <translation><!-- Newspaper Article --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference - External</masterLabel>
+            <translation><!-- Reference - External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reference - Internal</masterLabel>
+            <translation><!-- Reference - Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shoot / Product placement</masterLabel>
+            <translation><!-- Shoot / Product placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Store Visibility led footfall</masterLabel>
+            <translation><!-- Store Visibility led footfall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk-In</masterLabel>
+            <translation><!-- Walk-In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation><!-- Website --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- University --></label>
+        <name>University__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wrist watch brand --></label>
+        <name>Wrist_watch_brand__c</name>
+        <picklistValues>
+            <masterLabel>Fastrack</masterLabel>
+            <translation><!-- Fastrack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fossil</masterLabel>
+            <translation><!-- Fossil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GAS</masterLabel>
+            <translation><!-- GAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMT</masterLabel>
+            <translation><!-- HMT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- lastInteractionDate --></label>
+        <name>lastInteractionDate__c</name>
+    </fields>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Additonal Information --></label>
+            <section>Additonal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Closed Opportunities --></label>
+            <section>Closed Opportunities</section>
+        </sections>
+        <sections>
+            <label><!-- Open Opportunities --></label>
+            <section>Open Opportunities</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Details --></label>
+            <section>Personal Details</section>
+        </sections>
+        <sections>
+            <label><!-- Potential Information --></label>
+            <section>Potential Information</section>
+        </sections>
+        <sections>
+            <label><!-- Products Bought --></label>
+            <section>Products Bought</section>
+        </sections>
+        <sections>
+            <label><!-- Professional Details --></label>
+            <section>Professional Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- If you wish to enter DOB, remove indicative age. --></errorMessage>
+        <name>BirthdateValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If you wish to enter Indicative Age, default birth year to 1900 --></errorMessage>
+        <name>IndicativeAgeValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter valid Mobile Number --></errorMessage>
+        <name>Mobile_Alternative_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Enter Valid Mobile Number --></errorMessage>
+        <name>Mobile_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pincode should be six digits for India --></errorMessage>
+        <name>Pincode_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Customer360View --></label>
+        <name>Customer360View</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AttachFTP --></label>
+        <name>ENZ__AttachFTP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_Contacts --></label>
+        <name>salesvisual__Map_Contacts</name>
+    </webLinks>
+</CustomObjectTranslation>

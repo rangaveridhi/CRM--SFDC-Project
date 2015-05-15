@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Account</field>
+    </columns>
+    <columns>
+        <field>Contact$Name</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales__r.Items_Sold__r$Jewellery_Name__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales__r$Date_of_Sale__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales__r$City_of_Sale__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales__r.Items_Sold__r$Price__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales__r$Name</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales__r.Items_Sold__r$Name</field>
+    </columns>
+    <columns>
+        <field>Contact.Sales__r$Id</field>
+    </columns>
+    <description>Sales with respective jewellery</description>
+    <format>Tabular</format>
+    <name>Sales_Jewellery Name</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts_with_Sales_with_Items_Sold__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Contact$LastModifiedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

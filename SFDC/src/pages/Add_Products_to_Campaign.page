@@ -1,0 +1,82 @@
+<apex:page Standardcontroller="Product2" extensions="AddProductToCompaignController" sidebar="false">
+<apex:form >
+   
+   <apex:pageblock title="Add products to {!campaignName}">
+   
+   <table width="100%" border="0">
+      <tr>  
+    <td width="200" valign="top">
+
+      <apex:pageBlock title="Product Search" mode="edit" id="criteria">
+
+      <table cellpadding="2" cellspacing="2">
+      <tr>
+        <td style="font-weight:bold;">Style No<br/>
+        <apex:inputText id="StyleNo" value="{!styleNo}" />
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight:bold;">Product Name<br/>
+        <apex:inputText id="productName" value="{!productName}"/>
+        </td>
+      </tr>
+     
+     <tr>
+     <td>
+    <apex:commandButton action="{!runSearch}" value="Search" id="Search"/>
+      </td>
+      </tr> 
+       </table>    
+      </apex:pageBlock>
+
+    </td>
+    
+    <td valign="top">
+   
+   
+   
+
+<apex:pageBlock mode="edit" id="results">
+        <apex:pageMessages id="showmsg"></apex:pageMessages>
+        <apex:pageBlockTable value="{!productList}" var="p">
+
+        <apex:column headerValue="Select">
+            <apex:inputCheckbox value="{!p.selected}"/>
+        </apex:column>  
+           
+           
+        <apex:column >
+                <apex:facet name="header">
+                    <apex:commandLink value="Style No"  rerender="results,debug">
+                           <apex:param value="styleNo"/>
+                    </apex:commandLink>
+                </apex:facet>
+                <apex:outputLink value="/{!p.prod2['Id']}">
+                    <apex:outputField value="{!p.prod2.Style_No__c}" />
+                  </apex:outputLink>
+         </apex:column>
+
+        
+         <apex:column >
+                <apex:facet name="header">
+                    <apex:commandLink value="Product Name"  rerender="results,debug">
+                        <apex:param value="productName" />
+                    </apex:commandLink>
+                </apex:facet>
+                <apex:outputText value="{!p.prod2.name}"/>
+            </apex:column>
+          
+        </apex:pageBlockTable>
+        
+         <apex:pageBlockButtons >
+         <apex:commandButton action="{!addproduct}" value="Add to campaign" id="save" /> 
+        </apex:pageBlockButtons>  
+    </apex:pageBlock>
+    
+     </td>
+     </tr>
+     </table>
+      
+        </apex:pageBlock>
+           </apex:form>
+</apex:page>

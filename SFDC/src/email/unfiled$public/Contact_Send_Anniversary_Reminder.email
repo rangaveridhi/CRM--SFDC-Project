@@ -1,0 +1,12 @@
+Dear {!Account.OwnerFullName},
+
+It is {!Contact.FirstName}'s Aniversary on {!Contact.Next_Anniversary_Date1__c}. Please make sure to wish him / her.
+
+FYI,
+Contact Name:{!Contact.Name}
+Mob No:{!Contact.MobilePhone}
+Email:{!Contact.Email}
+
+
+Regards,
+Nirav Modi Jewellers

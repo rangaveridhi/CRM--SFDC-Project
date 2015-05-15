@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <fullName>Map_Contacts</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Map Contacts</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!requireScript(&quot;/soap/ajax/24.0/connection.js&quot;)}
+{!requireScript(&quot;/soap/ajax/24.0/apex.js&quot;)}
+idArray = {!GETRECORDIDS($ObjectType.Contact)};
+
+if(idArray.length == 0)
+{
+     alert(&quot;Please select at least one contact to map&quot;);
+}
+else if(idArray.length &gt; 20)
+{
+     alert(&quot;Please select no more than 20 contacts to map&quot;);
+}
+else
+{
+   // try the namespace first
+   var pageUrl = sforce.apex.execute(&quot;salesvisual.ContactMap&quot;, &quot;getPageUrl&quot;, {ids: idArray.toString()});
+   if (pageUrl == null)
+   {
+      var pageUrl = sforce.apex.execute(&quot;ContactMap&quot;, &quot;getPageUrl&quot;,  {ids: idArray.toString()});
+   }
+   window.location.href = pageUrl;
+}</url>
+    </webLinks>
+</CustomObject>

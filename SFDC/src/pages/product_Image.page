@@ -1,0 +1,12 @@
+<apex:page standardController="Product2"  extensions="ProductControllerExtension">
+
+<apex:form >
+<!--
+<apex:outputText value="{!ImgUrl}"> </apex:outputText> 
+-->
+<!--
+<embed src="{!ImgUrl}" width="500" height="375"></embed>
+-->
+<apex:image onmouseover="this.width='300'; this.height='300'" onmouseout="this.width='150'; this.height='155'" width="150" height="155" url="{!ImgUrl}" />
+</apex:form>
+</apex:page>

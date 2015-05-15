@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Address__c</fullName>
+        <label>Address</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Advertisements__c</fullName>
+        <label>Advertisements</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Alternate_Mobile__c</fullName>
+        <label>Alternate Mobile</label>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Attendees__c</fullName>
+        <description>Number of attendees for the campaign</description>
+        <label>Attendees</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Ageing__c</fullName>
+        <formula>Round( Today() - DATEVALUE(CreatedDate),0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campaign Ageing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Cost__c</fullName>
+        <formula>Venue_booking_costing__c +  Event_setup_Vendor_costing__c  +  Models_costing__c  +  F_B_Costing__c  +  Fixtures_costing__c  +  MC_Costing__c +  Travel_Transport__c + Lodging__c + Advertisements__c + Invites_Envelope__c + Event_Planner__c + Logistics__c + Food_Beverages__c + Gifts_and_Takeaways__c + Misc_Cost__c + Venue_booking_costing__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Budgeted Campaign Cost</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_ExternalID__c</fullName>
+        <externalId>true</externalId>
+        <label>Campaign ExternalID</label>
+        <length>55</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Email__c</fullName>
+        <label>Email</label>
+        <length>50</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Employee_s_Attended__c</fullName>
+        <description>Firestar employees, who attended the campaign</description>
+        <label>Employee&apos;s Attended</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Aparna</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ashini</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reshma</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Event_Planner__c</fullName>
+        <label>Event Planner</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Event_setup_Vendor_costing__c</fullName>
+        <description>Event setup vendor costing</description>
+        <label>Event setup vendor costing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>F_B_Costing__c</fullName>
+        <description>per pax costing</description>
+        <label>F&amp;B Costing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fixtures_costing__c</fullName>
+        <description>Fixtures costing</description>
+        <label>Fixtures costing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Food_Beverages__c</fullName>
+        <label>Food &amp; Beverages</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gifts_and_Takeaways__c</fullName>
+        <label>Gifts and Takeaways</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Internal_comments__c</fullName>
+        <description>Internal comments</description>
+        <label>Internal comments</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Internal_event_owner__c</fullName>
+        <description>Firestar employees who will be chosed as part of the campaign</description>
+        <label>Internal event owner</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Aparna</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ashini</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reshna</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Invites_Envelope__c</fullName>
+        <label>Invites + Envelope</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Landline__c</fullName>
+        <label>Landline</label>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Lodging__c</fullName>
+        <label>Lodging</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Logistics__c</fullName>
+        <label>Logistics</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MC_Costing__c</fullName>
+        <description>MC Costing</description>
+        <label>MC Costing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Misc_Cost__c</fullName>
+        <label>Misc Cost</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Models_costing__c</fullName>
+        <description>Models costing</description>
+        <label>Models costing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Name__c</fullName>
+        <label>Name</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Invitees__c</fullName>
+        <description>Number of invitees for campaign</description>
+        <label>Number of Invitees</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_confirmations__c</fullName>
+        <description>Number of confirmations received for the camapign</description>
+        <label>Number of confirmations</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Preferred_Mobile__c</fullName>
+        <label>Preferred Mobile</label>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Title__c</fullName>
+        <description>Titl eof teh external campaign owner</description>
+        <label>Title</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Mr.</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mrs.</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ms.</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Total_No_Interactions__c</fullName>
+        <defaultValue>0</defaultValue>
+        <label>Total Number of Interactions</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Travel_Transport__c</fullName>
+        <label>Travel &amp; Transport</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Venue_Cost__c</fullName>
+        <label>Venue Cost</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Venue__c</fullName>
+        <description>Location of the campaign</description>
+        <label>Venue</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Bangalore</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Chandigarh</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delhi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jaipur</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lucknow</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mumbai</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pune</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Venue_booking_costing__c</fullName>
+        <description>Venue booking costing</description>
+        <label>Venue booking costing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <validationRules>
+        <fullName>Invites_Check</fullName>
+        <active>true</active>
+        <description>Number of confirmations can&apos;t be greater than invites</description>
+        <errorConditionFormula>Number_of_confirmations__c &gt; Number_of_Invitees__c</errorConditionFormula>
+        <errorMessage>Number of Confirmations can&apos;t be greater than Invitees</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Mobile_Number_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+IF( ISBLANK(Preferred_Mobile__c) , false , NOT(REGEX(Preferred_Mobile__c, &quot;\\D*?(\\d\\D*?){10}&quot;)) )
+,
+IF( ISBLANK( Alternate_Mobile__c ) , false , NOT(REGEX(Alternate_Mobile__c , &quot;\\D*?(\\d\\D*?){10}&quot;)) ))</errorConditionFormula>
+        <errorMessage>Please enter valid Mobile Number</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Add_Products_to_Campaign</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Add Products to Campaign</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/Add_Products_to_Campaign?campaignID={!Campaign.Id}&amp;campaignName={!Campaign.Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewAllCampaignMembers</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View All Campaign Members</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>/camp/rptcmpgncalldown.jsp?scope=1&amp;scopeid={!Campaign_Name}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>ViewCampaignInfluenceReport</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>500</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Campaign Influence Report</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>/00O?rt=117&amp;break0=CAN&amp;scope=1&amp;scopeid_lkid={!Campaign.Id}&amp;scopeid={!Campaign_Name}&amp;c=CAN&amp;c=MR&amp;c=PCS&amp;c=CFN&amp;c=RN&amp;c=ON&amp;c=OA&amp;c=OS&amp;c=OCD&amp;c=AN&amp;s=OA&amp;duel0=CAN%2CMR%2CCFN%2CRN%2CAN%2CON%2CPCS%2COS%2COCD%2COA&amp;details=yes&amp;format=t</url>
+        <width>500</width>
+    </webLinks>
+</CustomObject>

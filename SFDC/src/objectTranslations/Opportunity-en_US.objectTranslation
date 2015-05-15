@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Opportunities</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Availability Status --></label>
+        <name>Availability_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Book --></label>
+        <name>Brand_Book__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date of Visit --></label>
+        <name>Date_of_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details Shared --></label>
+        <name>Details_Shared__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mention the Jewellery Display Schedule (Planned) --></help>
+        <label><!-- Display Schedule Planned --></label>
+        <name>Display_Schedule_Planned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Duration (in No) --></label>
+        <name>Duration__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date and Time --></label>
+        <name>End_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback on pieces/collections/brand --></label>
+        <name>Feedback_on_pieces_collections_brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Appointment --></label>
+        <name>Group_Appointment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction --></label>
+        <name>Interaction__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Emails</masterLabel>
+            <translation><!-- Emails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NMJ Events</masterLabel>
+            <translation><!-- NMJ Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NMJ Exhibition</masterLabel>
+            <translation><!-- NMJ Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Contact</masterLabel>
+            <translation><!-- Personal Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Calls</masterLabel>
+            <translation><!-- Phone Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk-in</masterLabel>
+            <translation><!-- Walk-in --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location_1__c</name>
+        <picklistValues>
+            <masterLabel>Banquet Hall</masterLabel>
+            <translation><!-- Banquet Hall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi Boutique</masterLabel>
+            <translation><!-- Delhi Boutique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Visit</masterLabel>
+            <translation><!-- Home Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel Suite</masterLabel>
+            <translation><!-- Hotel Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM Lounge</masterLabel>
+            <translation><!-- NM Lounge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location Details --></label>
+        <name>Location_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Art Lounge Visit --></label>
+        <name>Lounge_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ExternalID --></label>
+        <name>Opportunity_ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other points on lounge visit --></label>
+        <name>Other_points_on_lounge_visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall opportunity Ageing --></label>
+        <name>Overall_opportunity_Ageing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Put in the Product Code of the products sold on this opportunity --></help>
+        <label><!-- Product Code (Sales) --></label>
+        <name>Product_Code_Sales__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer&apos;s product likability. --></help>
+        <label><!-- Product Status --></label>
+        <name>Product_Status__c</name>
+        <picklistValues>
+            <masterLabel>Disliked</masterLabel>
+            <translation><!-- Disliked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liked</masterLabel>
+            <translation><!-- Liked --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason for Buying/Rejection --></label>
+        <name>Reason_for_Rejection__c</name>
+        <picklistValues>
+            <masterLabel>Craftmanship</masterLabel>
+            <translation><!-- Craftmanship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diamond Quality</masterLabel>
+            <translation><!-- Diamond Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusivity</masterLabel>
+            <translation><!-- Exclusivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Comfortable</masterLabel>
+            <translation><!-- Not Comfortable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Specified</masterLabel>
+            <translation><!-- Not Specified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailability</masterLabel>
+            <translation><!-- Unavailability --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recommended By --></label>
+        <name>Recommended_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales team members attended to client --></label>
+        <name>Sales_team_members_attended_to_client__c</name>
+        <picklistValues>
+            <masterLabel>Aparna Chudasama</masterLabel>
+            <translation><!-- Aparna Chudasama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arundhati De</masterLabel>
+            <translation><!-- Arundhati De --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dharien Shah</masterLabel>
+            <translation><!-- Dharien Shah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dipen Mehta</masterLabel>
+            <translation><!-- Dipen Mehta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Divya Rai</masterLabel>
+            <translation><!-- Divya Rai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurlene Mehta</masterLabel>
+            <translation><!-- Gurlene Mehta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaspreet Singh</masterLabel>
+            <translation><!-- Jaspreet Singh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kunal Walia</masterLabel>
+            <translation><!-- Kunal Walia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manoj Verma</masterLabel>
+            <translation><!-- Manoj Verma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nirav Modi</masterLabel>
+            <translation><!-- Nirav Modi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reshma Verma</masterLabel>
+            <translation><!-- Reshma Verma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruchika Khullar</masterLabel>
+            <translation><!-- Ruchika Khullar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saurabh Shah</masterLabel>
+            <translation><!-- Saurabh Shah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanya Mallavarapu</masterLabel>
+            <translation><!-- Tanya Mallavarapu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vrunda Nagpal</masterLabel>
+            <translation><!-- Vrunda Nagpal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Bought</masterLabel>
+            <translation><!-- Bought --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seen</masterLabel>
+            <translation><!-- Seen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shortlisted</masterLabel>
+            <translation><!-- Shortlisted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tried</masterLabel>
+            <translation><!-- Tried --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date and Time --></label>
+        <name>Start_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration --></label>
+        <name>Time_Spent__c</name>
+    </fields>
+    <fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Existing Business</masterLabel>
+            <translation><!-- Existing Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Business</masterLabel>
+            <translation><!-- New Business --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- AttachFTP --></label>
+        <name>ENZ__AttachFTP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Map_Opportunities --></label>
+        <name>salesvisual__Map_Opportunities</name>
+    </webLinks>
+</CustomObjectTranslation>

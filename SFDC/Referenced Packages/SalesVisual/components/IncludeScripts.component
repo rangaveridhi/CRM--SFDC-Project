@@ -1,0 +1,74 @@
+<apex:component >
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.Accordion, 'accordion/jquery.tools.min.js')}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.Slider, 'Slider/js/jquery-ui-1.8.17.custom.min.js')}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.Colorbox, 'colorbox/jquery.colorbox-min.js')}"/>
+    <script type="text/javascript" src="{!URLFOR($Resource.Plugins, 'jquery.scrollintoview.min.js')}"/>
+    <!--<script type="text/javascript" src="{!URLFOR($Resource.Knockout, 'knockout/jquery.tmpl.min.js')}"></script>-->
+    <script type="text/javascript" src="{!URLFOR($Resource.Knockout, 'knockout/knockout-2.0.0.js')}"></script>
+    <!--<script type="text/javascript" src="{!URLFOR($Resource.Knockout, 'knockout/knockout-2.0.0.debug.js')}"/>-->
+    <!--<script type="text/javascript" src="{!URLFOR($Resource.Knockout, 'knockout/knockout.mapping-latest.js')}"></script>-->
+    <script>
+        var enterIcon = "{!URLFOR($Resource.Icons, 'img/enter.png')}"
+        var mapTypes = {
+                           me:{ url:"{!URLFOR($Page.UserMap)}",
+                                //icon16: "{!URLFOR($Resource.Icons, 'icons/Me16.png')}",
+                                //icon24: "{!URLFOR($Resource.Icons, 'icons/Me24.png')}",
+                                icon16: 'https://s3.amazonaws.com/SalesVisual/icons/Me16.png',
+                                icon24: 'https://s3.amazonaws.com/SalesVisual/icons/Me24.png',
+                                selected: true },
+                           user:{ url: "{!URLFOR($Page.UserMap)}",
+                                //icon16: "{!URLFOR($Resource.Icons, 'icons/User16.png')}",
+                                //icon24: "{!URLFOR($Resource.Icons, 'icons/User24.png')}",
+                                icon16: 'https://s3.amazonaws.com/SalesVisual/icons/User16.png',
+                                icon24: 'https://s3.amazonaws.com/SalesVisual/icons/User24.png',
+                                selected: false },
+                           contact:{ url: "{!URLFOR($Page.ContactMap)}",
+                                //icon16: "{!URLFOR($Resource.Icons, 'icons/Contact16.png')}",
+                                //icon24: "{!URLFOR($Resource.Icons, 'icons/Contact24.png')}",
+                                icon16: 'https://s3.amazonaws.com/SalesVisual/icons/Contact16.png',
+                                icon24: 'https://s3.amazonaws.com/SalesVisual/icons/Contact24.png',
+                                selected: true },
+                           opportunity:{ url: "{!URLFOR($Page.OpportunityMap)}",
+                                //icon16: "{!URLFOR($Resource.Icons, 'icons/Opportunity16.png')}",
+                                //icon24: "{!URLFOR($Resource.Icons, 'icons/Opportunity24.png')}",
+                                icon16: 'https://s3.amazonaws.com/SalesVisual/icons/Opportunity16.png',
+                                icon24: 'https://s3.amazonaws.com/SalesVisual/icons/Opportunity24.png',
+                                selected: true },
+                           account:{ url: "{!URLFOR($Page.AccountMap)}",
+                                //icon16: "{!URLFOR($Resource.Icons, 'icons/Account16.png')}",
+                                //icon24: "{!URLFOR($Resource.Icons, 'icons/Account24.png')}",
+                                icon16: 'https://s3.amazonaws.com/SalesVisual/icons/Account16.png',
+                                icon24: 'https://s3.amazonaws.com/SalesVisual/icons/Account24.png',
+                                selected: true },
+                           product2:{ url: null,
+                                //icon16: "{!URLFOR($Resource.Icons, 'icons/Product16.png')}",
+                                //icon24: "{!URLFOR($Resource.Icons, 'icons/Product24.png')}",
+                                icon16: 'https://s3.amazonaws.com/SalesVisual/icons/Product16.png',
+                                icon24: 'https://s3.amazonaws.com/SalesVisual/icons/Product24.png',
+                                selected: false },
+                           campaign:{ url: null,
+                                //icon16: "{!URLFOR($Resource.Icons, 'icons/Campaign16.png')}",
+                                //icon24: "{!URLFOR($Resource.Icons, 'icons/Campaign24.png')}",
+                                icon16:'https://s3.amazonaws.com/SalesVisual/icons/Campaign16.png',
+                                icon24: 'https://s3.amazonaws.com/SalesVisual/icons/Campaign24.png',
+                                selected: false }
+                       };
+     window.onerror = function (message, url, lineNo) {
+        if(url.indexOf("d3.js") > -1)
+        {
+             browserDegrade();
+        }
+     return true;   
+    }    
+    function browserDegrade() {
+        $('#mapContainer > div').hide();
+        $('#mapContainer').html('SalesVisual does not support your current browser. Instead, please use Chrome, Firefox, Safari or IE 9.0+ ');
+    }
+    </script>
+    <script type="text/javascript" src="{!URLFOR($Resource.D3, 'D3/d3.js')}" />
+    <script type="text/javascript" src="{!URLFOR($Resource.D3, 'D3/d3.layout.js')}" />
+    <script type="text/javascript" src="{!URLFOR($Resource.D3, 'D3/d3.geom.js')}" />
+    <script type="text/javascript" src="https://s3.amazonaws.com/SalesVisual/init.js" />
+    <!--<script type="text/javascript" src="http://v1.prospectvisual.com/Scripts/SV/init.js" />-->
+</apex:component>

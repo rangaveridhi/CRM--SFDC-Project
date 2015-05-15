@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This is the Relation that is linked to an Interaction.</description>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Accompaniment_Name1__c</fullName>
+        <formula>Relation__r.Related_Contact__r.Contact_Full_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Accompaniment Name</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Accompaniment_Name__c</fullName>
+        <formula>HYPERLINK(&quot;https://cs3.salesforce.com/&quot; &amp; Id,Interaction__r.Contact__r.Contact_Full_Name__c + &quot;&apos;&quot; +&apos;s &apos; + Name,&quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Accompaniment Id</label>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Conversation__c</fullName>
+        <label>Conversation</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Interaction__c</fullName>
+        <description>The Interaction to which this Accompaniment is related to.</description>
+        <label>Interaction</label>
+        <referenceTo>Interaction__c</referenceTo>
+        <relationshipLabel>Accompaniments</relationshipLabel>
+        <relationshipName>Accompaniments</relationshipName>
+        <required>true</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Relation_Type__c</fullName>
+        <label>Relation Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Father</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Mother</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sister</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Brother</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Friend</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Colleague</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Son</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Daughter</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Relation__c</fullName>
+        <description>The Relation that describes the Accompaniment.</description>
+        <label>Relation</label>
+        <referenceTo>Relation__c</referenceTo>
+        <relationshipLabel>Accompaniments</relationshipLabel>
+        <relationshipName>Accompaniments</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Role_Of_Accompaniment__c</fullName>
+        <description>Role of the accompaniment</description>
+        <label>Accompaniment Role</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Silent</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Advice</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Influence</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Decision Maker</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Negative</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <label>Accompaniment</label>
+    <nameField>
+        <displayFormat>Accompaniment-{000}</displayFormat>
+        <label>Accompaniment Code</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Accompaniments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>New_Accompaniment</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>New Accompaniment</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/New_Influence?contactid={!Interaction__c.ContactId__c}&amp;InteractionId={!Interaction__c.Name}</url>
+    </webLinks>
+</CustomObject>

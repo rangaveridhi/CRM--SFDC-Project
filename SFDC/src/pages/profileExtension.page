@@ -1,0 +1,174 @@
+<apex:page standardController="Contact" id="thePage" extensions="ProfileExtension">
+  
+  <style type="text/css">
+
+.popup
+{
+background-color: white;
+border-width: 2px;
+border-style: solid;
+z-index: 9999;
+left: 50%;
+padding:10px;
+position: absolute;
+width: 700px;
+margin-left: -250px;
+top:40px;
+}
+
+.popupBg
+{
+background-color:black;
+opacity: 0.20;
+filter: alpha(opacity = 70);
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 9998;
+}
+
+
+</style>
+  <apex:form id="TheForm">
+  
+
+
+  
+  <apex:pageBlock title="New Profile" id="block1">
+     <apex:pageMessages />
+      
+        <apex:pageblockSection title="Potential Information" id="section7" collapsible="true">
+    
+      <apex:inputfield required="true" value="{!Contact.Potential_Non_Potential__c}"/>
+     <!-- <apex:inputfield required="true" value="{!Contact.Categorization__c}"/>  -->
+      </apex:pageblockSection>
+   <apex:pageblockSection title="Personal Details" collapsible="true">
+     
+       <apex:inputfield value="{!Contact.Salutation}"/>
+       <apex:inputfield value="{!Contact.FirstName}"/> 
+       <apex:inputfield value="{!Contact.Middle_name__c}"/>
+       <!-- <apex:outputlabel value="Last Name"></apex:outputlabel>
+              <apex:outputPanel styleClass="requiredInput" layout="block">
+                <apex:outputPanel styleClass="requiredBlock" layout="block"/>
+                <apex:inputText value="{!Contact.LastName}"/>
+               </apex:outputPanel>
+       -->
+      <apex:inputfield required="true" value="{!Contact.LastName}"/>
+       <apex:inputfield value="{!Contact.Profile_Status__c}"/>
+       <apex:inputfield label="Account Name" value="{!Contact.AccountId}"/>
+       <apex:inputfield id="mobilephone" value="{!Contact.MobilePhone}"/>
+      
+       <apex:commandButton style="margin-left:100px;" value="New Account" title="Please Enter Last Name" action="{!showPopup}" rerender="popup"/>
+       <apex:inputfield value="{!Contact.Mobile_Alternate__c}"/>
+       <apex:inputfield value="{!Contact.Marital_Status__c}"/>
+       <apex:inputfield value="{!Contact.Birthday_New__c}"/>
+       <apex:inputfield value="{!Contact.Anniversary__c}"/>
+       <apex:inputfield value="{!Contact.Indicative_age__c}"/>
+       <apex:inputfield value="{!Contact.Age__c}"/>
+       <apex:inputfield value="{!Contact.HomePhone}"/>
+       <apex:inputfield value="{!Contact.OtherPhone}"/>
+       <apex:inputfield value="{!Contact.Personal_Email__c}"/>
+       <apex:inputfield value="{!Contact.Residence_Address_1__c}"/>
+       <apex:inputfield value="{!Contact.Residence_Address_2__c}"/>
+       <apex:inputfield value="{!Contact.Residence_Address_3__c}"/>
+       <apex:inputfield value="{!Contact.City__c}"/>
+       <apex:inputfield value="{!Contact.Country__c}">
+       <apex:actionSupport event="onchange" action="{!populateCountryCode}" reRender="mobilephone" />
+       </apex:inputfield>
+       
+       <apex:inputfield value="{!Contact.Other_city_if_any__c}"/>
+       <apex:inputfield value="{!Contact.Pincode__c}"/>
+       <apex:inputfield value="{!Contact.Source__c}"/>
+       <apex:inputfield value="{!Contact.More_details_on_source__c}"/>
+       <apex:inputfield value="{!Contact.Remarks_on_source__c}"/>
+       <apex:inputfield value="{!Contact.Campaign__c}"/>
+   </apex:pageblockSection>
+  
+    <apex:pageblockSection title="Professional Details" id="section1"  collapsible="true">
+    
+      <apex:inputfield value="{!Contact.Company__c}"/>
+      <apex:inputfield value="{!Contact.Company_Address__c}"/>
+      <apex:inputfield value="{!Contact.Company_city__c}"/>
+      <apex:inputfield value="{!Contact.Company_country__c}"/>
+      <apex:inputfield value="{!Contact.Company_pincode__c}"/>
+      <apex:inputfield value="{!Contact.Company_Email__c}"/>
+      <apex:inputfield value="{!Contact.Email_alternate_if_any__c}"/>
+      <apex:inputfield value="{!Contact.Profession__c}"/>
+      <apex:inputfield value="{!Contact.Position__c}"/>
+      <apex:inputfield value="{!Contact.Nature_of_business__c}"/>
+      <apex:inputfield value="{!Contact.Secretary_Name__c}"/>
+      <apex:inputfield value="{!Contact.Secretary_Phone__c}"/>
+      <apex:inputfield value="{!Contact.Secretary_Email__c}"/>
+      
+    </apex:pageblockSection>
+  
+  <apex:pageblockSection title="Additonal Information" id="section2">
+    
+     
+      <apex:inputfield value="{!Contact.Wrist_watch_brand__c}"/>
+      <apex:inputfield value="{!Contact.Car_Brand__c}"/>
+      <apex:inputfield value="{!Contact.Car_model__c}"/> 
+      <apex:inputfield value="{!Contact.Hand_bag_if_any__c}"/>
+      <apex:inputfield value="{!Contact.Passions__c}"/>
+      <apex:inputfield value="{!Contact.Other_Passion__c}"/>
+      <apex:inputfield value="{!Contact.Magazines_read__c}"/>
+      <apex:inputfield value="{!Contact.Other_Magazines__c}"/>
+      <apex:inputfield value="{!Contact.Club_memberships__c}"/>
+      <apex:inputfield value="{!Contact.Competitor__c}"/>
+      <apex:inputfield value="{!Contact.Engagement_Types__c}"/>
+      <apex:inputfield value="{!Contact.Countries_visited__c}"/>
+      <apex:inputfield value="{!Contact.School_Name_Location__c}"/>
+      <apex:inputfield value="{!Contact.Graduation_College_Name__c}"/>
+      <apex:inputfield value="{!Contact.Graduation_Location__c}"/>
+      <apex:inputfield value="{!Contact.Post_Graduation_college_name__c}"/>
+      <apex:inputfield value="{!Contact.Post_Graduation_Location__c}"/> 
+      <apex:inputfield value="{!Contact.Additional_Remarks__c}"/>
+           
+   </apex:pageblockSection>
+   
+   
+   
+  
+      <apex:pageBlockButtons >
+               <apex:commandButton value="Save" style="align:Center" dir="Center" action="{!Save}"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <apex:commandButton value="Cancel" action="{!Cancel}"/>
+   
+   </apex:pageBlockButtons>
+      
+      <!--
+      Popup Window code for New Account Creation
+      -->
+      
+  
+</apex:pageBlock>
+    <apex:outputPanel id="popup" >
+                <apex:outputPanel styleClass="popupBg" layout="block" rendered="{!displayPopUp}"/>
+<apex:outputPanel styleClass="popup" layout="block" rendered="{!displayPopUp}">
+
+ <apex:pageBlock title="New Account" >
+ <apex:messages />
+            <apex:pageBlockSection title="New Account" collapsible="false">
+               <!--  <apex:inputfield value="{!account.Name}"/>
+                 -->
+               
+                <apex:outputlabel value="Account Name"></apex:outputlabel>
+                <apex:outputPanel styleClass="requiredInput" layout="block">
+                <apex:outputPanel styleClass="requiredBlock" layout="block"/>
+                <apex:inputText value="{!accountName}"/>
+               </apex:outputPanel>
+            </apex:pageBlockSection>
+             <apex:commandButton value="Save" action="{!saveAccount}" />&nbsp;&nbsp;&nbsp;&nbsp;
+              <apex:commandButton value="Hide" action="{!closePopup}" rerender="popup"/> 
+     
+       </apex:pageBlock>
+  
+</apex:outputPanel>
+</apex:outputPanel>
+ 
+  </apex:form>
+  
+  
+  
+</apex:page>

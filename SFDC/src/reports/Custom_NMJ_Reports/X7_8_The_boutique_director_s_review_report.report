@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$lastInteractionDate__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Interactions__r.Opportunities__r$Overall_opportunity_Ageing__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Interactions__r$Action_point__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Interactions__r$Action_Point_date__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Contact.Interactions__r.Opportunities__r$Availability_Status__c</column>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>7.8 The boutique director’s review repor</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>X7_8_Customer_Level_summary_Report__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Contact$Anniversary__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

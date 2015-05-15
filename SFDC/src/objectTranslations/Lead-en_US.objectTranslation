@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <value>Account Name</value>
+        </caseValues>
+        <name>company_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <value>Lead Analysis</value>
+        </caseValues>
+        <name>description_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <value>Lead Medium</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Lead Medium</value>
+        </caseValues>
+        <name>lead_source</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <help><!-- Select Age from the given Range --></help>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+        <picklistValues>
+            <masterLabel>18-24</masterLabel>
+            <translation><!-- 18-24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25-34</masterLabel>
+            <translation><!-- 25-34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35-49</masterLabel>
+            <translation><!-- 35-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50-65</masterLabel>
+            <translation><!-- 50-65 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>65+</masterLabel>
+            <translation><!-- 65+ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Annual Income --></label>
+        <name>Annual_Income__c</name>
+        <picklistValues>
+            <masterLabel>1 Crore to  5 Crores</masterLabel>
+            <translation><!-- 1 Crore to  5 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Crores to 20 Crores</masterLabel>
+            <translation><!-- 10 Crores to 20 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Crores to 10 Crores</masterLabel>
+            <translation><!-- 5 Crores to 10 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Lacs to 1 Crore</masterLabel>
+            <translation><!-- 50 Lacs to 1 Crore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than 20 Crores</masterLabel>
+            <translation><!-- More than 20 Crores --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cars Owned --></label>
+        <name>Cars_Owned__c</name>
+        <picklistValues>
+            <masterLabel>BMW</masterLabel>
+            <translation><!-- BMW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bentley</masterLabel>
+            <translation><!-- Bentley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mercedes</masterLabel>
+            <translation><!-- Mercedes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Porsche</masterLabel>
+            <translation><!-- Porsche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rolls Royce</masterLabel>
+            <translation><!-- Rolls Royce --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the Date &amp; Time --></help>
+        <label><!-- Date &amp; Time --></label>
+        <name>Date_Time__c</name>
+    </fields>
+    <fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation><!-- Apparel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation><!-- Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation><!-- Biotechnology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation><!-- Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation><!-- Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation><!-- Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion</masterLabel>
+            <translation><!-- Fashion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation><!-- Food &amp; Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation><!-- Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation><!-- Hospitality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation><!-- Machinery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation><!-- Not For Profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmaceuticals</masterLabel>
+            <translation><!-- Pharmaceuticals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation><!-- Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation><!-- Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation><!-- Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textile</masterLabel>
+            <translation><!-- Textile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel &amp; Leisure</masterLabel>
+            <translation><!-- Travel &amp; Leisure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Emails</masterLabel>
+            <translation><!-- Emails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NMJ Events</masterLabel>
+            <translation><!-- NMJ Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NMJ Exhibition</masterLabel>
+            <translation><!-- NMJ Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Contact</masterLabel>
+            <translation><!-- Personal Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Calls</masterLabel>
+            <translation><!-- Phone Calls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk-in</masterLabel>
+            <translation><!-- Walk-in --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Attended By --></label>
+        <name>Lead_Attended_By__c</name>
+        <picklistValues>
+            <masterLabel>Aparna Chudasama</masterLabel>
+            <translation><!-- Aparna Chudasama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arundhati De</masterLabel>
+            <translation><!-- Arundhati De --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dharien Shah</masterLabel>
+            <translation><!-- Dharien Shah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Divya Rai</masterLabel>
+            <translation><!-- Divya Rai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gurlene Mehta</masterLabel>
+            <translation><!-- Gurlene Mehta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaspreet Singh</masterLabel>
+            <translation><!-- Jaspreet Singh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kunal Walia</masterLabel>
+            <translation><!-- Kunal Walia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nirav Modi</masterLabel>
+            <translation><!-- Nirav Modi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reshma Verma</masterLabel>
+            <translation><!-- Reshma Verma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruchika Khullar</masterLabel>
+            <translation><!-- Ruchika Khullar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanya Mallavarapu</masterLabel>
+            <translation><!-- Tanya Mallavarapu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vrunda Nagpal</masterLabel>
+            <translation><!-- Vrunda Nagpal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Influenced By --></label>
+        <name>Lead_Influencer__c</name>
+        <picklistValues>
+            <masterLabel>Magazine Ads</masterLabel>
+            <translation><!-- Magazine Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Materials</masterLabel>
+            <translation><!-- Marketing Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newspaper Ad</masterLabel>
+            <translation><!-- Newspaper Ad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Press Articles</masterLabel>
+            <translation><!-- Press Articles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referrals</masterLabel>
+            <translation><!-- Referrals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV</masterLabel>
+            <translation><!-- TV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation><!-- Website --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Status --></label>
+        <name>Lead_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Influencer Details --></label>
+        <name>Lead_infl_detail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select NMJ Event --></help>
+        <label><!-- NMJ Events --></label>
+        <name>NMJ_Events__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Networth --></label>
+        <name>Networth__c</name>
+        <picklistValues>
+            <masterLabel>100 Crores to 200 Crores</masterLabel>
+            <translation><!-- 100 Crores to 200 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200 Crores to 300 Crores</masterLabel>
+            <translation><!-- 200 Crores to 300 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300 Crores to 400 Crores</masterLabel>
+            <translation><!-- 300 Crores to 400 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400 Crores to 500 Crores</masterLabel>
+            <translation><!-- 400 Crores to 500 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 Crores to 100 Crores</masterLabel>
+            <translation><!-- 50 Crores to 100 Crores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>More than 500 Crores</masterLabel>
+            <translation><!-- More than 500 Crores --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Other Cars Owned --></label>
+        <name>Other_Cars_Owned__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the networth property --></help>
+        <label><!-- Property Networth --></label>
+        <name>Property_Networth__c</name>
+    </fields>
+    <fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- School --></label>
+        <name>School__c</name>
+    </fields>
+    <fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Contacted</masterLabel>
+            <translation><!-- Contacted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified</masterLabel>
+            <translation><!-- Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unqualified</masterLabel>
+            <translation><!-- Unqualified --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- University --></label>
+        <name>University__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- NMJ Events Error --></errorMessage>
+        <name>NMJ_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Data for &apos;Other Cars Own&apos; field  if  Car Owned is &apos;Others&apos;. --></errorMessage>
+        <name>Specify_the_Other_Cars_Own</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Data for &apos;Other Lead Source&apos; field  if  Lead Source is &apos;Other&apos;. --></errorMessage>
+        <name>Specify_the_Other_Lead_Source</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

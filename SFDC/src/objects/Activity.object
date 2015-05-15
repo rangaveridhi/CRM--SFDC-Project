@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Completed_Date__c</fullName>
+        <label>Completed Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date__c</fullName>
+        <label>Date</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Duration_of_Visit__c</fullName>
+        <label>Duration of Visit</label>
+        <length>42</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>End_Date_and_Time__c</fullName>
+        <label>End Date and Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>End_Time__c</fullName>
+        <label>End Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_on_pieces_collections_brand__c</fullName>
+        <label>Feedback on pieces/collections/brand</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Other_points_on_lounge_visit__c</fullName>
+        <label>Other points on lounge visit</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Pieces_Collections_in_which_interest__c</fullName>
+        <label>Pieces in which interest was shown</label>
+        <length>255</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_and_Time__c</fullName>
+        <label>Start Date and Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Start_Time__c</fullName>
+        <label>Start Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Total_Time_Taken__c</fullName>
+        <formula>End_Date_and_Time__c  -  Start_Date_and_Time__c</formula>
+        <label>Total Time Taken</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>c_Sales_team_members_who_attended_to_cl__c</fullName>
+        <label>Sales team members attending to client</label>
+        <picklist>
+            <picklistValues>
+                <fullName>None</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+</CustomObject>

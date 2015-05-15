@@ -1,0 +1,9 @@
+<apex:component controller="salesvisual.OpportunityMap" >
+    <apex:attribute name="Opportunity" type="Opportunity"  assignTo="{!rootOpportunity}" description="Current Opportunity"/>
+  <!-- Begin Default Content REMOVE THIS -->
+  <script type="text/javascript">
+    var json = {!data};
+  </script>
+  <c:MapContainer fullMapPath="{!URLFOR($Page.salesvisual__OpportunityMap, null, [id=Opportunity.id])}"></c:MapContainer>
+  <!-- End Default Content REMOVE THIS -->
+</apex:component>

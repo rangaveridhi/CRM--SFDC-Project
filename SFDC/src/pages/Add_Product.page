@@ -1,0 +1,186 @@
+<apex:page Standardcontroller="Product2" extensions="AddProductController" sidebar="false">
+    
+    <style type="text/css">
+        
+        .popup
+        {
+        background-color: white;
+        border-width: 2px;
+        border-style: solid;
+        z-index: 9999;
+        left: 50%;
+        padding:10px;
+        position: absolute;
+        width: 1000px;
+        margin-left: -250px;
+        top:40px;
+        }
+        
+        .popupBg
+        {
+        background-color:black;
+        opacity: 0.20;
+        filter: alpha(opacity = 70);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9998;
+        }
+    </style>
+    
+    
+    <apex:form id="CheckCreateOpp">
+        
+        
+        
+        <apex:pageblock id="blcID" title="Add products to {!interactionName.Interaction_Name__c} ">
+            
+            <table width="100%" border="0">
+                <tr>  
+                    <td width="200" valign="top">
+                        
+                        <apex:pageBlock title="Product Search" mode="edit" id="criteria">
+                            
+                            <table cellpadding="2" cellspacing="2">
+                                <tr>
+                                    <td style="font-weight:bold;">Style No<br/>
+                                        <apex:inputText id="StyleNo" value="{!styleNo}" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Product Name<br/>
+                                        <apex:inputText id="productName" value="{!productName}"/>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>
+                                        <apex:commandButton action="{!runSearch}" value="Search" id="Search"/>
+                                    </td>
+                                </tr> 
+                                
+                            </table>
+                            
+                            
+                        </apex:pageBlock>
+                        
+                    </td>
+                    
+                    <td valign="top">
+                        <apex:pageBlock mode="edit" id="results">
+                            
+                            
+                            <apex:pageMessages id="showmsg" rendered="{!showMessage}"></apex:pageMessages>
+                            <apex:pageBlockTable value="{!productList}" var="p">
+                                
+                                <apex:column headerValue="Select">
+                                    <apex:inputCheckbox value="{!p.selected}"/>
+                                </apex:column>  
+                                
+                                
+                                <apex:column >
+                                    <apex:facet name="header">
+                                        <apex:commandLink value="Style No"  rerender="results,debug">
+                                            <apex:param value="styleNo"/>
+                                        </apex:commandLink>
+                                    </apex:facet>
+                                    <apex:outputLink value="/{!p.prod2['Id']}">
+                                        <apex:outputField value="{!p.prod2.Style_No__c}" />
+                                    </apex:outputLink>
+                                </apex:column>
+                                
+                                
+                                <apex:column >
+                                    <apex:facet name="header">
+                                        <apex:commandLink value="Product Name"  rerender="results,debug">
+                                            <apex:param value="productName" />
+                                        </apex:commandLink>
+                                    </apex:facet>
+                                    <apex:outputText value="{!p.prod2.name}"/>
+                                </apex:column>
+                                
+                                
+                                <apex:column >
+                                    <apex:facet name="header">
+                                        <apex:commandLink value="Opportunity Stage"  rerender="results,debug">
+                                            
+                                        </apex:commandLink>
+                                    </apex:facet>
+                                    <apex:selectList value="{!p.selectedOpp}" size="1">
+                                        <apex:selectOptions id="inVal1" value="{!OppStage}"  />
+                                        <apex:actionSupport event="onchange" action="{!enableCreateOpp}" reRender="createOpp" />
+                                    </apex:selectList>
+                                </apex:column>
+                                
+                                
+                                <apex:column >
+                                    <apex:facet name="header">
+                                        <apex:commandLink value="Product Status"  rerender="results,debug">
+                                        </apex:commandLink>
+                                    </apex:facet>
+                                    <apex:selectList value="{!p.selectedProd}" size="1">
+                                        <apex:selectOptions value="{!ProductStatus}"  />
+                                    </apex:selectList>
+                                </apex:column> 
+                                
+                                <apex:column >
+                                    <apex:facet name="header">
+                                        <apex:commandLink value="Reasons for Acceptance/Rejection"  rerender="results,debug">
+                                        </apex:commandLink>
+                                    </apex:facet>
+                                    <apex:selectList value="{!p.selectedReason}" size="1">
+                                        <apex:selectOptions value="{!Reasons}"  />
+                                    </apex:selectList>
+                                </apex:column>
+                                
+                                
+                                <apex:column id="oppClm"  headerValue="Create Opportunity">
+                                    <apex:inputCheckbox id="createOpp" value="{!p.open}"/>
+                                </apex:column>   
+                                
+                                
+                            </apex:pageBlockTable>
+                            
+                            <apex:pageBlockButtons >
+                                <apex:commandButton action="{!addProduct}" value="save" id="save1" /> 
+                                <!-- <apex:commandButton value="save and close popup" title="Please Enter Last Name" action="{!showPopup}" rerender="popup"/> -->
+                                <apex:commandButton action="{!addProductandClose}" value="save and close" id="save2" />
+                                <apex:commandButton action="{!cancel}" value="cancel" id="cancel" /> 
+                            </apex:pageBlockButtons>
+                        </apex:pageBlock>
+                        
+                    </td>
+                </tr>
+            </table>
+            
+        </apex:pageBlock>
+        
+        <apex:outputPanel id="popup" >
+            <apex:outputPanel styleClass="popupBg" layout="block" rendered="{!displayPopUp}"/>
+            <apex:outputPanel styleClass="popup" layout="block" rendered="{!displayPopUp}">
+                
+                <apex:pageBlock title="page messages" >
+                    
+                    <apex:pageBlockSection title="" collapsible="false">
+                        
+                        
+                        <apex:messages style="margin-left:10px;"/>
+                        <apex:outputlabel value="Information"></apex:outputlabel>
+                        
+                    </apex:pageBlockSection>
+                    <apex:commandButton style="margin-left:250px;" value="Ok" action="{!okay}" />&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!--<apex:commandButton value="Hide" action="{!closePopup}" rerender="popup"/> -->
+                    
+                </apex:pageBlock>
+                
+            </apex:outputPanel>
+        </apex:outputPanel>        
+        
+        
+        
+        
+        
+    </apex:form>
+</apex:page>

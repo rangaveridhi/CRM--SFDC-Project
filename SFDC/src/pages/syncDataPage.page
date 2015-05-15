@@ -1,0 +1,54 @@
+<apex:page controller="syncDataController">
+   
+   
+   
+    <apex:form >
+        <apex:pageMessages />
+        
+        
+        <apex:PageBlock id="PageBlock">
+            <apex:pageBlockSection columns="1" title="Profile Lookup" >
+             <span id="theText" style="font-style:bold"><b>Please select a Profile Name then click on the Interaction.</b></span>
+                <apex:inputField id="Contact" value="{!contact.Profile_Name__c}"  />
+            </apex:pageBlockSection>
+                    <apex:commandButton value="New Profile"  action="{!URLFOR($Action.Contact.NewContact)}" />
+                      <!-- <apex:commandButton value="New Profile"  action="{!newProfile}"/> -->
+        </apex:PageBlock>
+
+        
+        <apex:pageBlock mode="edit" title="Sync Data From Ipad">
+             <apex:pageBlockTable value="{!listSessionProfiles}" var="lsp">
+                    
+                    
+                    <apex:column >
+                        <apex:facet name="header">Interaction Name</apex:facet>
+                           <apex:commandLink action="{!syncDataPage2}" value="{!lsp['Interaction_Name__c']}"  >
+                                       <apex:param name="val2" value="{!lsp['Customer_Name__c']}"/>
+                                       <apex:param name="val1" value="{!lsp['SessionID__c']}"/>
+                                       
+                                 </apex:commandLink>
+                           
+                           
+                     </apex:column>
+                   
+                     
+                     <apex:column >
+                        <apex:facet name="header">Customer Name</apex:facet>
+                            {!lsp['Customer_Name__c']}
+                    </apex:column>
+                     
+                     
+                     
+                     <apex:column >
+                        <apex:facet name="header">Ipad Username</apex:facet>
+                            {!lsp['Sales_User_s_Name__c']}
+                     </apex:column>
+                     
+                     
+         
+            </apex:pageBlockTable>
+           
+   
+   </apex:pageBlock> 
+</apex:form>
+</apex:page>

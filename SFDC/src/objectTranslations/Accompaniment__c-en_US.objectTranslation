@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Accompaniment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Accompaniments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accompaniment Name --></label>
+        <name>Accompaniment_Name1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accompaniment Id --></label>
+        <name>Accompaniment_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conversation --></label>
+        <name>Conversation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interaction --></label>
+        <name>Interaction__c</name>
+        <relationshipLabel><!-- Accompaniments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Relation Type --></label>
+        <name>Relation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Brother</masterLabel>
+            <translation><!-- Brother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colleague</masterLabel>
+            <translation><!-- Colleague --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daughter</masterLabel>
+            <translation><!-- Daughter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Father</masterLabel>
+            <translation><!-- Father --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend</masterLabel>
+            <translation><!-- Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mother</masterLabel>
+            <translation><!-- Mother --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sister</masterLabel>
+            <translation><!-- Sister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Son</masterLabel>
+            <translation><!-- Son --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relation --></label>
+        <name>Relation__c</name>
+        <relationshipLabel><!-- Accompaniments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Accompaniment Role --></label>
+        <name>Role_Of_Accompaniment__c</name>
+        <picklistValues>
+            <masterLabel>Advice</masterLabel>
+            <translation><!-- Advice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influence</masterLabel>
+            <translation><!-- Influence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negative</masterLabel>
+            <translation><!-- Negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silent</masterLabel>
+            <translation><!-- Silent --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Accompaniment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- New_Accompaniment --></label>
+        <name>New_Accompaniment</name>
+    </webLinks>
+</CustomObjectTranslation>

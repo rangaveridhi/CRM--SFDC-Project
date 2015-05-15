@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Availability_Status__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Availability Status</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Brand_Book__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Brand Book</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <label>City</label>
+        <length>30</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_Visit__c</fullName>
+        <label>Date of Visit</label>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Details_Shared__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Details of the product</description>
+        <label>Details Shared</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Display_Schedule_Planned__c</fullName>
+        <inlineHelpText>Mention the Jewellery Display Schedule (Planned)</inlineHelpText>
+        <label>Display Schedule Planned</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Duration__c</fullName>
+        <formula>End_Time__c -  Start_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Time Duration (in No)</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>End_Time__c</fullName>
+        <label>End Date and Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_on_pieces_collections_brand__c</fullName>
+        <label>Feedback on pieces/collections/brand</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Group_Appointment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Put a tick mark incase of Group Appt</description>
+        <label>Group Appointment</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Interaction__c</fullName>
+        <label>Interaction</label>
+        <referenceTo>Interaction__c</referenceTo>
+        <relationshipLabel>Opportunities</relationshipLabel>
+        <relationshipName>Opportunities</relationshipName>
+        <required>true</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Location_1__c</fullName>
+        <label>Location</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Banquet Hall</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delhi Boutique</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Home Visit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hotel Suite</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>NM Lounge</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Location_Details__c</fullName>
+        <label>Location Details</label>
+        <length>100</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Lounge_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Art Lounge Visit</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_ExternalID__c</fullName>
+        <externalId>true</externalId>
+        <label>Opportunity ExternalID</label>
+        <length>55</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Other_points_on_lounge_visit__c</fullName>
+        <label>Other points on lounge visit</label>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Overall_opportunity_Ageing__c</fullName>
+        <formula>Round(  Today() -  DATEVALUE(CreatedDate) ,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Overall opportunity Ageing</label>
+        <precision>18</precision>
+        <scale>0</scale>
+        <type>Number</type>
+    </fields>
+    <fields>
+        <fullName>Product_Code_Sales__c</fullName>
+        <externalId>true</externalId>
+        <inlineHelpText>Put in the Product Code of the products sold on this opportunity</inlineHelpText>
+        <label>Product Code (Sales)</label>
+        <length>80</length>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Status__c</fullName>
+        <inlineHelpText>Customer&apos;s product likability.</inlineHelpText>
+        <label>Product Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Liked</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Disliked</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Rejection__c</fullName>
+        <label>Reason for Buying/Rejection</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Craftmanship</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Diamond Quality</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Exclusivity</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not Comfortable</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unavailability</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Recommended_By__c</fullName>
+        <label>Recommended By</label>
+        <length>40</length>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Sales_team_members_attended_to_client__c</fullName>
+        <label>Sales team members attended to client</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Aparna Chudasama</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Arundhati De</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dharien Shah</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Dipen Mehta</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Divya Rai</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Gurlene Mehta</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jaspreet Singh</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Kunal Walia</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Manoj Verma</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nirav Modi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Reshma Verma</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ruchika Khullar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Saurabh Shah</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tanya Mallavarapu</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vrunda Nagpal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>MultiselectPicklist</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Start_Time__c</fullName>
+        <label>Start Date and Time</label>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Time_Spent__c</fullName>
+        <formula>IF ( Duration__c &gt; 0, 
+TEXT(FLOOR( Duration__c)) &amp; &quot; days &quot; &amp; 
+TEXT( FLOOR( 24 * ( Duration__c - FLOOR(Duration__c) ))) &amp; &quot; hours &quot; &amp; 
+TEXT( ROUND(60 * (ROUND( 24 * ( Duration__c - FLOOR(Duration__c) ),8) - FLOOR( 
+ROUND( 24 * ( Duration__c - FLOOR(Duration__c) ),8)) ),0)) &amp; &quot; mins &quot; 
+, &quot;&quot;)</formula>
+        <label>Duration</label>
+        <type>Text</type>
+    </fields>
+    <webLinks>
+        <fullName>ENZ__AttachFTP</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasScrollbars>true</hasScrollbars>
+        <height>350</height>
+        <linkType>url</linkType>
+        <masterLabel>Attach (FTP)</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <url>https://www.enzigma.com/sforce/ftp/Attach.aspx?FieldName=ENZ__Opportunity__c&amp;FieldValue={!Opportunity.Id}&amp;OrgID={!Organization.Id}&amp;SFUrl={!API.Partner_Server_URL_70}&amp;SFSessionID={!API.Session_ID}</url>
+        <width>500</width>
+    </webLinks>
+    <webLinks>
+        <fullName>salesvisual__Map_Opportunities</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Map Opportunities</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!requireScript(&quot;/soap/ajax/24.0/connection.js&quot;)}
+{!requireScript(&quot;/soap/ajax/24.0/apex.js&quot;)}
+idArray = {!GETRECORDIDS($ObjectType.Opportunity)};
+
+if(idArray.length == 0)
+{
+     alert(&quot;Please select at least one opportunity to map&quot;);
+}
+else if(idArray.length &gt; 20)
+{
+     alert(&quot;Please select no more than 20 opportunities to map&quot;);
+}else
+{
+   // try the namespace first
+   var pageUrl = sforce.apex.execute(&quot;salesvisual.OpportunityMap&quot;, &quot;getPageUrl&quot;, {ids: idArray.toString()});
+   if (pageUrl == null)
+   {
+      var pageUrl = sforce.apex.execute(&quot;OpportunityMap&quot;, &quot;getPageUrl&quot;,  {ids: idArray.toString()});
+   }
+   window.location.href = pageUrl;
+}</url>
+    </webLinks>
+</CustomObject>

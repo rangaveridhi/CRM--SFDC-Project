@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Track the changes in stages of an opportunity based on the business logic that all the earlier designated stages would be considered fulfilled , even if the sales rep does  not updates those stages while creating or updating an opportunity.</description>
+    <fields>
+        <fullName>Opportunity2__c</fullName>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>OpportunityStageTracker</relationshipLabel>
+        <relationshipName>OpportunityStageTracker</relationshipName>
+        <required>true</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product2__c</fullName>
+        <label>Product</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>OpportunityStageTracker</relationshipLabel>
+        <relationshipName>OpportunityStageTracker</relationshipName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Stage__c</fullName>
+        <label>Stage</label>
+        <length>20</length>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <label>OpportunityStageTracker</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>OpportunityStageTracker Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>OpportunityStageTracker</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

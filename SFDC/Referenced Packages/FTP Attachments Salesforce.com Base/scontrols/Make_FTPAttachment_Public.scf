@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML>
+<head>
+<link href="/dCSS/Theme2/default/common.css" type="text/css" media="handheld,print,projection,screen,tty,tv" rel="stylesheet" >
+<link href="/dCSS/Theme2/default/custom.css" type="text/css" media="handheld,print,projection,screen,tty,tv" rel="stylesheet" >
+
+<script type="text/javascript" src="/js/functions.js"></script>
+<script src="/soap/ajax/9.0/connection.js" type="text/javascript"></script>
+<script src="/soap/ajax/9.0/apex.js" type="text/javascript"></script>
+<script type="text/javascript">
+try
+{
+var arrAttachments = [];
+var attachmentUpdate = new sforce.SObject("ENZ__FTPAttachment__c");
+attachmentUpdate.set("Id", '{!FTPAttachment__c.Id}');
+attachmentUpdate.set("ENZ__IsPublic__c", true);
+arrAttachments.push(attachmentUpdate);
+//debugger;
+var result = sforce.connection.update(arrAttachments);
+if( !result[0].getBoolean("success") )
+alert(result[0].errors.message);
+else
+{
+opener.document.location.reload();
+window.close();
+}
+}
+catch(fault)
+{
+alert(fault.faultstring);
+}
+</script>
+</head>
+<BODY class="product">
+
+
+<DIV class=bPageTitle>
+<DIV class="ptBody secondaryPalette">
+<DIV class=content><IMG class=pageTitleIcon alt=Account src="/s.gif">
+<H1 class=pageType>Update Attachment<SPAN class=titleSeparatingColon>:</SPAN></H1>
+<H2 class=pageDescription>Make Public</H2>
+</DIV></DIV></DIV>
+
+
+<DIV class="bPageBlock secondaryPalette">
+<DIV class=pbBody>
+<DIV class=pbSubsection>
+
+<form name=AccountSearchForm method="POST" action="javascript:SearchAccount()">
+
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<tr ALIGN=LEFT><td class=labelCol></td></tr>
+<tr><td align=center>
+</td></tr>
+</TABLE>
+
+<div id="ResultsHolder"></div>
+
+</form>
+</DIV></DIV></DIV>
+</BODY>
+</HTML>

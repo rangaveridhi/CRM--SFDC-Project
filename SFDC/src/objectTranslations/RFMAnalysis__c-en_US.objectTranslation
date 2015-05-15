@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>RFMAnalysis</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RFMAnalysis</value>
+    </caseValues>
+    <fields>
+        <label><!-- ContactId --></label>
+        <name>ContactId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- RFMAnalysis --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Frequency Score --></label>
+        <name>Frequency_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monetary Score --></label>
+        <name>Monetary_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFM Score --></label>
+        <name>RFM_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recency Score --></label>
+        <name>Recency_Score__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

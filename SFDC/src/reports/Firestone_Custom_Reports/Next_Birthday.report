@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>OWNER_FULL_NAME</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>SALUTATION</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.Role_of_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Residence_Address_1__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Residence_Address_2__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Next_Birthday__c</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>PHONE4</field>
+    </columns>
+    <columns>
+        <field>PHONE3</field>
+    </columns>
+    <description>Birthday Report month-wise</description>
+    <format>Tabular</format>
+    <name>Next Birthday</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>OWNER_FULL_NAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Contact.Next_Birthday__c</dateColumn>
+        <interval>INTERVAL_NEXTMONTH</interval>
+    </timeFrameFilter>
+</Report>

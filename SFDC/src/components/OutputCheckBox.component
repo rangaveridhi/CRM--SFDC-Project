@@ -1,0 +1,4 @@
+<apex:component >
+    <apex:attribute name="value" description="Checkbox to be used in view pages" type="Boolean" />
+    <img src="{!IF(value, '/img/checkbox_checked.gif', '/img/checkbox_unchecked.gif')}" title="{!IF(value, 'True', 'False')}" />
+</apex:component>

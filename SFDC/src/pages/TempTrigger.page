@@ -1,0 +1,5 @@
+<apex:page controller="TempTriggerController">
+    <apex:form >
+    	<apex:commandButton action="{!doRFMAnalysis}" value="DO RFM ANALYSIS"/>
+	</apex:form>
+</apex:page>

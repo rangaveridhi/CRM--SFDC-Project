@@ -1,0 +1,86 @@
+<apex:page standardController="Interaction__c" id="thePage" extensions="customInteractionExtension2">
+    <apex:form id="additionalContent" >
+        <apex:pageMessages />
+        <apex:pageBlock title="New Interaction" id="block1"   >
+            <apex:pageblockSection title="New Interaction" id="section7" collapsible="true" columns="2" >
+                
+               <apex:PageblockSectionItem >               
+                    
+                    <apex:outputLabel value="Profile"></apex:outputLabel>   
+                    <apex:actionRegion >                                                                                  
+                        
+                        <apex:inputField label="Profile" value="{!Interaction__c.Contact__c}">
+                            <apex:actionSupport event="onchange" rerender="accountName"/>
+                        </apex:inputField>
+                        
+                    </apex:actionRegion>
+                </apex:PageblockSectionItem>
+                
+                
+                <apex:pageBlockSectionItem >
+                    <apex:actionRegion >
+                    <apex:outputLabel value="Medium of Interaction"></apex:outputLabel>
+                            <apex:selectList value="{!medium}" size="1">
+                                <apex:selectOptions value="{!MediumOfInteraction}" />
+                                <apex:actionSupport event="onchange" action="{!doToggle}" rerender="additionalContent" status="status" id="actionSup"/>
+                            </apex:selectList>                                    
+                    </apex:actionRegion> 
+                </apex:pageBlockSectionItem>
+                
+                <apex:inputField value="{!Interaction__c.Purpose_of_interaction__c}"/>
+                <apex:inputField value="{!Interaction__c.Purpose_of_Purchase_Interest__c}"/>
+                <apex:inputField value="{!Interaction__c.Campaign__c}"/>
+                <apex:inputField value="{!Interaction__c.Remarks__c}"/>
+                <apex:inputField value="{!Interaction__c.Action_point__c}"/>
+                <apex:inputField value="{!Interaction__c.Action_Point_date__c}"/>
+            </apex:pageblockSection>
+            
+            <apex:pageBlockSection title="Other Information" columns="2" rendered="{!commonFields}">
+                
+                <apex:inputField required="true" value="{!Interaction__c.Staff_1__c}"/>
+                <apex:inputField value="{!Interaction__c.Staff_2__c}"/>
+                <apex:inputField value="{!Interaction__c.Start_Time__c}"/>
+                <apex:inputField value="{!Interaction__c.End_Time__c}"/>
+                <apex:inputField value="{!Interaction__c.Jewellery_Worn_if_any__c}"/>
+                <apex:inputField value="{!Interaction__c.Outcome__c}"/>
+                <apex:inputField value="{!Interaction__c.Budget_given_in_lacs__c}"/>
+                
+                
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Other Information - Out of Store" columns="2" rendered="{!outofstore}">
+                
+                <apex:inputField required="true" value="{!Interaction__c.Staff_1__c}"/>
+                <apex:inputField value="{!Interaction__c.Staff_2__c}"/>
+                <apex:inputField value="{!Interaction__c.Start_Time__c}"/>
+                <apex:inputField value="{!Interaction__c.End_Time__c}"/>
+                <apex:inputField value="{!Interaction__c.Jewellery_Worn_if_any__c}"/>
+                <apex:inputField value="{!Interaction__c.Outcome__c}"/>
+                <apex:inputField value="{!Interaction__c.Budget_given_in_lacs__c}"/>
+                <apex:inputField value="{!Interaction__c.Location_Detail__c}"/>
+                <apex:inputField value="{!Interaction__c.City__c}"/>
+                
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="email" columns="2" rendered="{!email}">
+                <apex:inputField value="{!Interaction__c.Start_Time__c}"/>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="Phone call details" columns="2" rendered="{!phonecall}">
+                <apex:inputField value="{!Interaction__c.Budget_given_in_lacs__c}"/>
+                <apex:inputField value="{!Interaction__c.Outcome__c}"/>
+                <apex:inputField value="{!Interaction__c.Start_Time__c}"/>
+                <apex:inputField value="{!Interaction__c.End_Time__c}"/>
+                
+            </apex:pageBlockSection>
+            
+            
+            
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!saveInteraction}" value="save" id="save" /> 
+                <apex:commandButton action="{!cancel}" value="cancel" id="cancel" />
+            </apex:pageBlockButtons>
+            
+            
+        </apex:pageBlock> 
+    </apex:form> 
+</apex:page>

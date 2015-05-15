@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <value>Items Sold</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Items Sold</value>
+    </caseValues>
+    <fields>
+        <label><!-- Jewellery Code --></label>
+        <name>Jewellery_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jewellery Name --></label>
+        <name>Jewellery_Name__c</name>
+        <relationshipLabel><!-- Items Sold --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales --></label>
+        <name>Sale__c</name>
+        <relationshipLabel><!-- Items Sold --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sub Total --></label>
+        <name>Sub_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Units --></label>
+        <name>Units__c</name>
+    </fields>
+    <layouts>
+        <layout>Items Sold Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
